@@ -2,14 +2,13 @@
 
 ### Day 0: July 17th, 2017
 
- <!--- just  **Today's Progress**: Fixed CSS, worked on canvas functionality for the app. --->
+ **Today's Progress**: Started Ruby code for Pegacorn Project & put it under local source control with Git.  Successfully communicated with and parsed outcome from a REST API.
 
- <!--- **Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality. --->
+**Thoughts:** So glad I was able to get my gems, homebrew, and rbenv to play nice with each other this morning before starting the challenge.  Looking forward to to the days when I'll be able to do this kind of task on autopilot, and hoping they won't be too long from now.
 
-<!--- **Link to work:** [Calculator App](http://www.example.com) --->
+**Link to work:** Don't have one as it contains my auth credentials for the API I'm accessing.  It's stored in a directory on my machine .
 
 <!--- ### Day 0: February 30, 2016 (Example 2) --->
-<!--- ##### (delete me or comment me out) --->
 
 <!--- **Today's Progress**: Fixed CSS, worked on canvas functionality for the app. --->
 
