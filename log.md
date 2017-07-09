@@ -1,6 +1,7 @@
 # 100 Days Of Code - Log
 
-### Day 0: July 7th, 2017 (9:15-10:15pm)
+### Day 0: July 7th, 2017 ###
+(9:15 - 10:15pm)
 
  **Today's Progress**: Started Ruby code for Pegacorn Project & put it under local source control with Git.  Successfully communicated with and parsed outcome from a REST API.
 
@@ -9,6 +10,7 @@
 **Link to work:** Don't have one as it contains my auth credentials for the API I'm accessing.  It's stored in a directory on my machine.
 
 ### Day 1: July 8th, 2017 ###
+(10:05 - 11:10pm)
 
 **Today's Progress**: Continued work on Pegacorn Project.  I figured out how to get my url params working (it had to do with the allowed filters for the particular endpoint I'm working with), and created a method using DateTime that I plan to use 
 
