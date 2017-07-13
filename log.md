@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 5: July 12th, 2017 ###
+(9:30 - 10:47pm)
+
+**Today's Progress**: Updated my cron job earlier today so that it appends to the log file rather than overwriting it each time.  Spent most of my hour today working on setting up environment variables to hide my API creds, but couldn't get them working right and none of the stack overflow answers I read was helpful.  And this one seemed like such a simple one!  But I guess the $PATH never is.  May just move them to a .gitignored config file instead.
+
+**Thoughts**: Not surprisingly, researching one of the things that I thought would be most straightforward led to my least productive day (in terms of lines of code written) of the challenge thus far.  Aside from that, I attended my first Ruby users' Meetup today and actually had a good idea of what was going on + got some good info out of it.  One of the talks was even directly relevant to the DateTime issues I'm working through on the Pegacorn Project right now.
+
+**Link to work**: Alas, it's still on my machine.
+
 ### Day 4: July 11th, 2017 ###
 (8:10 - 9:10pm)
 
