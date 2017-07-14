@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 6: July 13th, 2017 ###
+(9:41 - 10:52pm)
+
+**Today's Progress**: Got my API credentials hidden in my files, moved them to a new directory with an empty Git history, and got them added to a repo on Github.  Learned that my Ruby files aren't in the mood to allow me to require YAML files today, as well as the syntax for including variables from another file as basic_auth arguments for a net/http request.  Updated my cron job to point to the new directory.
+
+**Thoughts**: Kind of surprised that it took me the whole of another hour to get this working, so I hope I retain what I learned.  I'm positive that including variables from another file will come up again in the future.
+
+**Link to work**: (It's currently a mess, but I'm glad I can include this now) https://github.com/twoesplease/pegacorn_project
+
 ### Day 5: July 12th, 2017 ###
 (9:30 - 10:47pm)
 
