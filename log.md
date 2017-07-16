@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 8: July 15th, 2017 ###
+(9 - 10:17pm)
+
+**Today's Progress**: Made some formatting changes, wrote methods to generate ISO-formatted times for today at 8pm & tomorrow at 6am, and wrote some descriptive comments to help with understanding those methods.  Looked up and used the map method on an array for the first time.
+
+Outside of my hour, I udpated my Terminal prompt to show my current git branch in a contrasting color.
+
+**Thoughts**: Digging in to the slightly-tricky logic of converting today's ISO date to tomorrow has been fun, and I'm glad that I got most of that done within a single hour.  The API call isn't returning the results I thought it would when I interpolate the timestamps I generated into the params, so I'd like to do more testing on that sometime soon.
+
+I'm at the point now where I'm ready to hook up the Raspberry Pi and start figuring out how to get my code onto it and working, so I ordered a separate keyboard for it today.  I also need to go ahead and order a USB adapter so that I can connect an external monitor to it.
+
+**Link to work**: https://github.com/twoesplease/pegacorn_project/blob/master/count_onc_ticket_updates.rb
+
 ### Day 7: July 14th, 2017 ###
 (10:20 - 11:23pm)
 
