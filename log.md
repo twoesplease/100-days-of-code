@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 9: July 16th, 2017 ###
+(4:35 - 5:40pm)
+
+**Today's Progress**: Added date to ONC counter API call params (but it doesn't seem to be working), started on the streaming API portion of this project that needs to use Websockets + read several articles about that.
+
+**Thoughts**: I felt bad spending so much of my time reading about how to use Websockets, but I imagine that much of a professional dev's time is spent reading documentation as well sso I'm trying not to be too hard on myself about that. Doing some noodling on how to troubleshooting the API params that aren't working for the ONC counter.
+
+**Link to work**: https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb
+
 ### Day 8: July 15th, 2017 ###
 (9 - 10:17pm)
 
