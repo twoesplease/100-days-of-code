@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 10: July 17th, 2017 ###
+(9:55 - 11:10pm)
+
+**Today's Progress**: Fixed bug in date params for ONC counter, so I believe it's finished until I figure out how to connect it to the Raspberry Pi.  Read more on Websockets and changed my chat waits watcher to use EventMachine libraries based on this tutorial: https://github.com/pusher/websockets-from-scratch-tutorial.  Tried out the small bit of code I copy pasted but didn't get any sort of reply from the server - not even an authentication error, which I should get since I haven't entered any credentials yet.  
+
+**Thoughts**: There are so many short getting started guides on Websockets, and they all use different libraries.  I don't want to build a Rails or Sinatra app just to grab chat wait times, so that cuts down on the resources a bit.  Ideally I'd like to be able to do this using just the Ruby core library, but perhaps these EventMachine libraries can help me get going a bit faster.
+
+**Link to work**: https://github.com/pusher/websockets-from-scratch-tutorial
+
+
 ### Day 9: July 16th, 2017 ###
 (4:35 - 5:40pm)
 
