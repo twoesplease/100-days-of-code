@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 11: July 18th, 2017 ###
+(10 - 11:13pm)
+
+**Today's Progress**: Did still more reading on how to set up a streaming WebSockets connection in Ruby, and updated code to add the basic steps for establishing a connection.  Wrote pseudocode for how to subscribe to the particular Zendesk chat metric I want to monitor, and added TODOs as comments to my file.  When attempting to merge all my updates, I ran into a merge conflict caused by me not switching to my development branch at the beginning of my hour.
+
+**Thoughts**: Kind of dismayed that I spent so much time reading again, but I feel like I've found a request structure that will work and have a good next step or two to go off of when I sit down for my hour of code tomorrow.  Also glad I was forced to resolve a merge conflict in Git - this doesn't see like the last time I'll run into that!
+
+**Link to work**: https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb
+
 ### Day 10: July 17th, 2017 ###
 (9:55 - 11:10pm)
 
