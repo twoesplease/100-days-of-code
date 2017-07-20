@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 12: July 19th, 2017 ###
+(7:06 - 7:23pm, 7:46 - 8:39pm)
+
+**Today's Progress**: Switched it up and watched an old *webcast* about WebSockets today.  Updated code to attempt to push a request to the WebSockets server and parse errors, but am getting an error code of 0 and nothing in the response headers so it seems like I'm not making it as far as a connection to the WebSockets server.  I copied the example code fro mteh screencast though and was able to successfully make a WebSockets connection to google.com, but not to the server I need to connect to for my project.  
+
+Ran into more Git merge coflicts when attmepting to commit my changes, so I'm learning about Git that way.
+
+Outside of my hour, I made some CSS updates to my page at toneeyoung.com.  I don't have any code-related forté at the moment, but front-end definitely aint' it.
+
+**Thoughts**: Well, I still don't understand much of WebSockets at all but it feels like I've made the tiniest bit of progress.  I aws feeling sicky today, so I'm glad I stuck it out and did my hour of code anyway.
+
+**Link to work**: https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb
+
 ### Day 11: July 18th, 2017 ###
 (10 - 11:13pm)
 
