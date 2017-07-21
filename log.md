@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 13: July 20th, 2017 ###
+(7:55 - 8:55pm)
+
+**Today's Progress**: Updated the type of authentication I was using and tried many variations of the couple of options hashes (based on example code from the Github repo for the EventMachine-HTTP-Request gem I'm using), but still wasn't able to get anything back from the WebSockets server but a response code of 0 and an empty header. 
+
+**Thoughts**: Hitting a low-level frustration at being stuck on the same step for a few days now, and I'm not getting any helpful error messages back from the WebSocket server to point me in the right direction.  My plan for tomorrow is to rubber duck my way through the node.js example code in the Zendesk documentation and compare it to mine to see what might be different.  If that doesn't work, I'm going to copy/paste & run it from my machine to determine if it's maybe just my OAuth token that's busted.  At least I've got a plan.
+
+Also got a new keyboard and mouse today so taht I can connect to and work on my Raspberry Pi this weekend!
+
+**Link to work**: https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb
+
 ### Day 12: July 19th, 2017 ###
 (7:06 - 7:23pm, 7:46 - 8:39pm)
 
