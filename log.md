@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 14: July 21st, 2017 ###
+(9:55 - 11pm)
+
+**Today's Progress**: Today I compared the example Node.js code in the Zendesk documentation with mine to look for differences and see why it might not be working, but didn't find anything.  Next, I copied that Node.js code into my own file, spent some time setting up my machine to run it, and found that I got very similar results to when I ran my own code.
+
+I asked the only other person at work today who I can see has generated an OAuth token, but they haven't connected to the Real-time Chat API so I'm not able to see how they did it.  My hypotheses for why my code might not be working are that either my OAuth token doesn't work/the whole real-time chat API is broken, or I'm not subscribing to the metrics I want properly (aka something is wrong in my code).
+
+Next steps to troubleshoot this: 
+* Double check OAuth requirements to see if simply generating a token isn't enough
+* See if I can find a status indicator for the real-time chat API, look again in Zendesk help forums to see if anyone is experiencing a similar problem
+* Make a websockets connection to another service to see if I'm able to do so successfully
+
+**Thoughts**: Annoyed that I'm stuck here, but I have the necessary equipment to work on the Raspberry Pi now so I can switch over to working on that if I need a break from this.  I'd like to make some progress on that this weekend anyway.
+
+**Link to work**: I haven't uploaded anything to Github today.
+
 ### Day 13: July 20th, 2017 ###
 (7:55 - 8:55pm)
 
