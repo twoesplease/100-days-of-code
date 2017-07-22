@@ -5,7 +5,7 @@
 
 **Today's Progress**: Today I compared the example Node.js code in the Zendesk documentation with mine to look for differences and see why it might not be working, but didn't find anything.  Next, I copied that Node.js code into my own file, spent some time setting up my machine to run it, and found that I got very similar results to when I ran my own code.
 
-I asked the only other person at work today who I can see has generated an OAuth token, but they haven't connected to the Real-time Chat API so I'm not able to see how they did it.  My hypotheses for why my code might not be working are that either my OAuth token doesn't work/the whole real-time chat API is broken, or I'm not subscribing to the metrics I want properly (aka something is wrong in my code).
+I asked the only other person at work today who I can see has generated an OAuth token, but they haven't connected to the Real-time Chat API so I'm not able to see how they did it.  My hypotheses for why my code might not be working are that either my OAuth token doesn't work (though I would expect an error message noting that I wasn't authorized), the whole real-time chat API is broken, or I'm not subscribing to the metrics I want properly (aka something is wrong in my code).
 
 Next steps to troubleshoot this: 
 * Double check OAuth requirements to see if simply generating a token isn't enough
