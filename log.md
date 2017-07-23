@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 15: July 22nd, 2017 ###
+(8 - 9:50pm)
+
+**Today's Progress**: Today I got my Raspberry Pi up and running, and I'm typing today's update on it right now!  I installed Ruby, rvm, updated the keyboard layout, and worked through some display issues.  I cloned my Pegacorn Github repo, and had to create a local file for my secrets on the pi and then update the code to point to it - but, I got one of the scripts working and talking to the Zendesk API!
+
+Next, I looked up a project for lighting an LED on RPi using Ruby code, since I eventually want the output I'm getting from the Zendesk API to trigger a light.  I found one using the gem pi_piper (which is, as the name indicates, designed for use with Raspberry Pi), and decided to copy the Morse Code example in the pi_piper Github repo: https://github.com/jwhitehorn/pi_piper/tree/develop/examples/morse_code
+
+I ran into an error when attempting to install the pi_piper gem (something about not being able to find headers), and found a StackOverflow answer that recommended I run 'sudo apt-get install ruby-dev' first, which worked.   
+
+I typed up the code (rather than copy pasting) from the morse code example project above so that I could be sure I understood what it was doing, but since I don't have any experience with electrical engineering of any sort, I've been doing research online about how to set up the circuit since then.  I'm thinking I'll look back into that tomorrow - I know I have all the parts I need except I'm not sure whether I truly need male/female wires or can just use plain old jumper wires without extra stuff added to each end.  I may watch a YouTube video or two on that before going to sleep tonight.
+
+**Thoughts**: So much more to learn as far as electrical engineering goes, but it's good to know a bit about the topic in general, and it will help me with future projects that I'm interested in taking on around the house, like building a water system that checks the soil mositure to deliver the right amount of water or an automatic chicken pen door opener/closer.  I just want to be sure that I keep my main focus on coding and remember that the electrical engineering learning is secondary.
+
+**Link to work**: I haven't uploaded anything to Github yet, but hopefully I'll be able to add some code that talks to my Pi soon!
+
 ### Day 14: July 21st, 2017 ###
 (9:55 - 11pm)
 
