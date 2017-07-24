@@ -5,11 +5,11 @@
 
 **Today's Progress**: Made a cURL request with my auth creds for the WebSockets (WS) bit of my project today and found that I don't have authorization to access the WS server.  Regenerated my creds, but got the same result.  I think I tried this right after generating the creds, but the cURL request didn't work -- can't remember why exactly, but perhaps it was because it was so shortly after I'd generated them.
 
-Since I was stuck without being able to use my auth creds, I pulled up the [Exercism] (http://exercism.io/) Gigasecond exercise that I'd started long ago and worked on that until my hour was over.
+Since I was stuck without being able to use my auth creds, I pulled up the [Exercism](http://exercism.io/) Gigasecond exercise that I'd started long ago and worked on that until my hour was over.
 
 **Thoughts**: I wish I'd tried this basic step again sooner.  I know I've been learning a bit from fiddling around with the code and wondering whether slight changes would work and why, but I could've probably moved a lot further by now.  I can do a bit more research to see if there's a way to update the permissions on my auth creds, and in the meantime can work on adding code to my first two files that are working to light up an LED on my Raspberry Pi. 
 
-**Link to work**: (Link to [Exercism] (http://exercism.io/) Hamming Exercise not included, only today's updates to the WebSockets-related file) https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb 
+**Link to work**: (Link to [Exercism](http://exercism.io/) Hamming Exercise not included, only today's updates to the WebSockets-related file) https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb 
 
 ### Day 15: July 22nd, 2017 ###
 (8 - 9:50pm)
