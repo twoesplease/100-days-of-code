@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 17: July 24th, 2017 ###
+(8:03 - 8:46pm, 9:25 - 10:07pm)
+
+**Today's Progress**: Asked for help from someone at work and from my mentor (who I had a scheduled meeting with today), and got some tips that the OAuth flow likely involves 2 or 3 more steps.  I dug around in the documentation and found a description of those steps for one of the APIs I'm working with, and got those creds to work.  
+
+For the Real-Time-Chat/WebSockets API I'm working with though, I haven't been able to get those same steps to work.  It also gives much less helpful (read: largely nonexistent) error messages.
+
+Asked a third person for help with an electrical question I had about the wiring I need to use, and got the info I needed from them as well.
+
+Also ran into some Git trickiness today (always when trying to merge my two branches), and ended up trying out a git stash which did not work out as easily as I wanted it to.  That created a few extra minutes of work but is all good learning for me in the end.
+
+**Thoughts**: I've pushed myself to ask for help much more frequently than I feel comfortable with (especially today), and overall it's been moving me in the right direction.  Sometimes it made me feel silly for not already knowing what I was asking about, and feeling like I should have just checked that one last online resource.  When I asked my mentor for help, I felt validated because she told me OAuth was a notoriously tricky process to deal with.  When I asked for electrical help, I felt silly for asking but the right answer was the one I was guessing so it wasn't so bad.
+
+All in all, asking for help is giving me new avenues and ideas to look for and moving me forward in this project and in my knowledge overall.  Sometimes people are super nice, and sometimes less so, but so far no one has refused to give me info.  One day someone might scold me for not knowing what I'm asking them about, and I'm going to go ahead and tell myself now that either that will be a good tip for info I should review -- or perhaps I'll just have to let it roll off my back because I know what I need to know better than that person does.
+
+**Link to work**: (Not much of an update here today because most of my work was done making cURL requests to various endpoints and copying the data they returned into temporary text files): https://github.com/twoesplease/pegacorn_project/blob/master/watch_chat_waits.rb
+
 ### Day 16: July 23rd, 2017 ###
 (10:15 - 11:23pm)
 
