@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 18: July 25th, 2917 ###
+(9:43 - 11pm)
+
+**Today's Progress**: Before my hour, I learned that there is a whole separate workflow I need to go through in order to generate OAuth creds for the Zendesk Real-time chat API, which uses Websockets, than for the Zendesk core API.  I wasn't able to login to the right place to get that process started and didn't receive a password reset when I requested one, so I chatted with support.  They weren't sure what was going on and asked me to keep trying and come back tomorrow.
+
+During my hour, I worked on the [Exercism](http://exercism.io/) "Convert DNA to RNA" problem.  I started working again in Spacemacs today, so I admittedly spent some of my hour configuring Spacemacs settings since I've recently uninstalled and reinstalled it.
+
+**Thoughts**: I was initially excited about the "Convert DNA to RNA" problem because it looked like something I'd be able to knock out quickly and without much trouble.  However, I ran into issues in implementation with scope and syntax that have me feeling discouraged because I should definitely be able to solve them.  Those are pretty motivating for me to switch up my approach though so that I'm practicing problems like this at some point every day to avoid getting rusty.  Perhaps I can start spending a few minutes per day on a break at work on them.
+
+**Link to work**: Didn't upload my exercise yet so I don't have a link to it.
+
 ### Day 17: July 24th, 2017 ###
 (8:03 - 8:46pm, 9:25 - 10:07pm)
 
