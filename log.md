@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 20: July 25th, 2917 ###
+(8:43 - 8:58pm)
+
+**Today's Progress**: Yesterday I heard back from the Websockets API developers about a bug I reported yesterday that was preventing me from getting an OAuth token that I could use to authenticate against the API.  Today they emailed me back to tell me how to resolve that issue, but I wasn't able to successfully authenticate via cURL or a Ruby script with the client secret I got.  Going to see if someone at work runs into the same problem as me and if so, I'll email the API developers again.
+
+During my project-related coding time I continued work on the [Exercism](http://exercism.io/) "Convert DNA to RNA" problem.  I got 5/8 of the tests to pass, and now have to get my code to respond properly to invalid input.
+
+**Thoughts**: Was too tired today to do 2 hours of project-related coding, so I'll have to catch up this weekend.  Feeling discouraged because I feel like this exercise should be really simple, but I'm getting hung up.  I'm gaining more familiarity now with common hash and string methods though, as well as scope-related errors and testing methods - so this struggling is positive overall.
+
+### Day 19: July 25th, 2917 ###
+(6:30 - 9:30pm)
+
+**Today's Progress**: Attended a Rails Meetup and watched a presentation called "Starting a Career with a Mindset of Testing," then mob programmed tests for a sample Rails app as a group.  I plan to do 2 hours of project-related coding tomorrow since I didn't do that today.
+
+**Thoughts**: I wrote my first-ever test, volunteered to be the first participant to "drive" during the mob programming session, and participated by describing what to code next to other "drivers" as well.  One of the organizers was describing the MVC model to someone who asked a question, and when I offered a diagram to help them explain, they asked me to try explaining instead.  I did, and got the general message across - which felt good!  Definitely could use some polishing but explaining things to others truly is a good (though scary) way to learn.
+
+So glad I got my learning about testing in general and RSpec specifically started, because I want to get into good habits with that by using TDD/BDD as a general rule.  I'd like to add some tests to my Pegacorn Project code soon!
+
 ### Day 18: July 25th, 2917 ###
 (9:43 - 11pm)
 
