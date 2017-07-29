@@ -1,6 +1,25 @@
 # 100 Days Of Code - Log
 
-### Day 20: July 25th, 2917 ###
+### Day 21, July 26th, 2017 ###
+(9:28 - 10:28pm)
+
+**Today's Progress**: I took a sick day from work today, but I still go my hour in.  It took me the whole hour, but I did finish the [Exercism](http://exercism.io/) "Convert DNA to RNA" problem.
+
+**Thoughts**: Still feeling like I should have finished this one much faster, but I picked up a lot that I hope I retain along the way.  Issues that I remember running into over the few sessions I've worked on this, or things that I have learned:
+
+* Not being able to access a hash defined within a class from a method inside that class
+* Figuring out how to compare each character in a string with all the keys in an array was tricky
+* I ran into issues with invalid arguments that were more than one character in length, I believe because I needed to use #all? rather than .each or #any?
+* The #any? method is in the Array class documentation, but the #all? method is in the Enumerable mixin documentation
+* I had to look up how to implement the RegEx I needed in order to use the #gsub! method
+* My code was pretty long and included nested if statements within if/case statements at one point, but I found a way to shorten it without making it too hard to read #phew -- I was checking the length of a string and applying different rules based on that, but then I found out that the #split method works even on a 1-character string so I didn't need to do that any longer
+* I had to remind myself how to properly include the BookKeeping module and how to submit the problem
+
+I haven't yet compared my answer to others', but I plan to tomorrow.
+
+**Link to work**: http://exercism.io/submissions/a594707099534bf7a17a9766122643d1
+
+### Day 20: July 25th, 2017 ###
 (8:43 - 8:58pm)
 
 **Today's Progress**: Yesterday I heard back from the Websockets API developers about a bug I reported yesterday that was preventing me from getting an OAuth token that I could use to authenticate against the API.  Today they emailed me back to tell me how to resolve that issue, but I wasn't able to successfully authenticate via cURL or a Ruby script with the client secret I got.  Going to see if someone at work runs into the same problem as me and if so, I'll email the API developers again.
@@ -8,6 +27,8 @@
 During my project-related coding time I continued work on the [Exercism](http://exercism.io/) "Convert DNA to RNA" problem.  I got 5/8 of the tests to pass, and now have to get my code to respond properly to invalid input.
 
 **Thoughts**: Was too tired today to do 2 hours of project-related coding, so I'll have to catch up this weekend.  Feeling discouraged because I feel like this exercise should be really simple, but I'm getting hung up.  I'm gaining more familiarity now with common hash and string methods though, as well as scope-related errors and testing methods - so this struggling is positive overall.
+
+**Link to work**: I'll have it once I submit the problem.
 
 ### Day 19: July 25th, 2917 ###
 (6:30 - 9:30pm)
@@ -17,6 +38,8 @@ During my project-related coding time I continued work on the [Exercism](http://
 **Thoughts**: I wrote my first-ever test, volunteered to be the first participant to "drive" during the mob programming session, and participated by describing what to code next to other "drivers" as well.  One of the organizers was describing the MVC model to someone who asked a question, and when I offered a diagram to help them explain, they asked me to try explaining instead.  I did, and got the general message across - which felt good!  Definitely could use some polishing but explaining things to others truly is a good (though scary) way to learn.
 
 So glad I got my learning about testing in general and RSpec specifically started, because I want to get into good habits with that by using TDD/BDD as a general rule.  I'd like to add some tests to my Pegacorn Project code soon!
+
+**Link to work**: Don't have one for today.
 
 ### Day 18: July 25th, 2917 ###
 (9:43 - 11pm)
