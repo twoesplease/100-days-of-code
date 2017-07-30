@@ -1,6 +1,30 @@
 # 100 Days Of Code - Log
 
-### Day 22, July 29th, 2017 ###
+### Day 23: July 30th, 2017 ###
+(6pm - 7:17pm)
+
+**Today's Progress**: So, I've spent a lot of this afternoon on Raspberry Pi stuff, but I'm only counting a bit of it for my hours of code.  Today I first followed a YouTube tutorial on how to light an LED with my Raspberry Pi, and then I used some information from another tutorial along with code from the [Pi_Piper repo](https://github.com/jwhitehorn/pi_piper) to light up and LED using one of the Pi's GPIO pins according to user input and using morse code!
+
+I tried to also move that code to a class and call it on an instantiated object of the class, but I didn't get that working just yet.
+
+Then, I added code to light up the LED for 15 seconds according to the logic in the count_onc_ratings & count_good_ratings files from the Pegacorn Project.  The conditions weren't being met based on the data from the API, so I threw in some fake conditions just to test that the code worked to light up the Pi - it does!  I had to comment it out though because the cron that the one file is running on is running from my laptop rather than the Raspberry Pi.
+
+**Thoughts**: There was a lot of learning going on today, as well as a good bit of waiting for things to download to the Pi (and putting a fan on it so it didn't overheat).  I'd never used a breaboard or read about how to build a circuit before, so I was starting from level zero there and was glad that there were so many online tutorials to choose from.
+
+I updated the code from the [Pi Piper repo's Morse Code example](https://github.com/jwhitehorn/pi_piper/tree/develop/examples/morse_code) a bit so that the block requesting input didn't loop forever, and so that it would work with the newest version of Ruby -- one of the data types didn't respond to the method being applied to it any longer.  I hope I didn't create a forking disaster, because I've never done that before either.
+
+I also don't have alligator clips or M/F jumper cables, so I had to make sure that the cables I was using made contact just right.  Overall, I feel like I made some good progress on the Pegacorn Project today!
+
+Future steps for the Pegacorn Project are to refactor the ount_good_ratings and count_onc_ticket_updates files to remove duplicated code, get jumper cables that will stay connected or alligator clips for the Pi, get the watch_chat_waits code working with the Streaming Chat API, add crons to the Pi to run each script, and figure out how to update my hardware and code to work with the voltage for th Pegacorn.
+
+I'd also like to get the Pi Piper morse code project to work when calling it from an instantiated object of a class.
+
+**Link to work**: 
+* Fork to Pi Piper repo: https://github.com/twoesplease/pi_piper/commit/c8c3f003e3cb527eec4213e3f50daa0d8ff6245f
+* Update to count_good_ratings in Pegacorn Project: https://github.com/twoesplease/pegacorn_project/blob/master/count_good_ratings.rb
+* Update to count_onc_ticket_updates in Pegacorn Project: https://github.com/twoesplease/pegacorn_project/blob/master/count_onc_ticket_updates.rb
+
+### Day 22: July 29th, 2017 ###
 (10:20 - 11:30pm)
 
 **Today's Progress**: I refactored the my code from yesterday's Exercism problem based on some detailed feedback I received from a commenter.  I also peeked at one other person's solution to compare it to mine.
@@ -11,7 +35,7 @@ Now that I've made another submission, I'd like to go through and look at other 
 
 **Link to work**: http://exercism.io/submissions/47e0e79a67de43f1a3975e31a9866e79
 
-### Day 21, July 28th, 2017 ###
+### Day 21: July 28th, 2017 ###
 (9:28 - 10:28pm)
 
 **Today's Progress**: I took a sick day from work today, but I still go my hour in.  It took me the whole hour, but I did finish the [Exercism](http://exercism.io/) "Convert DNA to RNA" problem.
