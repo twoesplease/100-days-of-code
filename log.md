@@ -1,6 +1,17 @@
 # 100 Days Of Code - Log
 
-### Day 21, July 26th, 2017 ###
+### Day 22, July 29th, 2017 ###
+(10:20 - 11:30pm)
+
+**Today's Progress**: I refactored the my code from yesterday's Exercism problem based on some detailed feedback I received from a commenter.  I also peeked at one other person's solution to compare it to mine.
+
+**Thoughts**: I didn't want to steal ideas from the other submitter's code in refactoring my own, though I know that reading other peoples' code is one of the best ways to learn.  I'm really thankful for the suggestions from the person who commented on my code, though one thing that's bothering me is that they said there was a bug in my original code and I'm not sure what it was.  There were a couple of small things that I thought it might be, but they seemed more formatting-related than logical issues - so I'm worried I didn't get it.  The code still passes all the tests though and I think is cleaner for the edits that I made.  There was also an example of good code that the commenter included that I didn't think was fantastic, because it was an if statement that didn't use an 'else' in the last line of the clause.  I thought that made it a bit confusing and more difficult to read, but perhaps writing the statements that way is a Ruby convention?  I'll find out with more code.
+
+Now that I've made another submission, I'd like to go through and look at other peoples' solutions before I review my own again.
+
+**Link to work**: http://exercism.io/submissions/47e0e79a67de43f1a3975e31a9866e79
+
+### Day 21, July 28th, 2017 ###
 (9:28 - 10:28pm)
 
 **Today's Progress**: I took a sick day from work today, but I still go my hour in.  It took me the whole hour, but I did finish the [Exercism](http://exercism.io/) "Convert DNA to RNA" problem.
@@ -19,7 +30,7 @@ I haven't yet compared my answer to others', but I plan to tomorrow.
 
 **Link to work**: http://exercism.io/submissions/a594707099534bf7a17a9766122643d1
 
-### Day 20: July 25th, 2017 ###
+### Day 20: July 27th, 2017 ###
 (8:43 - 8:58pm)
 
 **Today's Progress**: Yesterday I heard back from the Websockets API developers about a bug I reported yesterday that was preventing me from getting an OAuth token that I could use to authenticate against the API.  Today they emailed me back to tell me how to resolve that issue, but I wasn't able to successfully authenticate via cURL or a Ruby script with the client secret I got.  Going to see if someone at work runs into the same problem as me and if so, I'll email the API developers again.
@@ -30,7 +41,7 @@ During my project-related coding time I continued work on the [Exercism](http://
 
 **Link to work**: I'll have it once I submit the problem.
 
-### Day 19: July 25th, 2917 ###
+### Day 19: July 26th, 2017 ###
 (6:30 - 9:30pm)
 
 **Today's Progress**: Attended a Rails Meetup and watched a presentation called "Starting a Career with a Mindset of Testing," then mob programmed tests for a sample Rails app as a group.  I plan to do 2 hours of project-related coding tomorrow since I didn't do that today.
@@ -41,7 +52,7 @@ So glad I got my learning about testing in general and RSpec specifically starte
 
 **Link to work**: Don't have one for today.
 
-### Day 18: July 25th, 2917 ###
+### Day 18: July 25th, 2017 ###
 (9:43 - 11pm)
 
 **Today's Progress**: Before my hour, I learned that there is a whole separate workflow I need to go through in order to generate OAuth creds for the Zendesk Real-time chat API, which uses Websockets, than for the Zendesk core API.  I wasn't able to login to the right place to get that process started and didn't receive a password reset when I requested one, so I chatted with support.  They weren't sure what was going on and asked me to keep trying and come back tomorrow.
