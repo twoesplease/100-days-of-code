@@ -1,9 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 24: July 31st, 2017 ###
+(7:30 - 8:45pm)
+
+**Today's Progress**: 
+* Updated crontab to use bash instead of sh so that it could see the pi_piper gem I added to the count_good_ratings file for the Pegacorn project
+* Updated count_onc_ticket_updates & count_good_ratings files in Pegacorn project to have comments be more descriptive
+  * Ran into some git issues when trying to merge my development branch with master
+  * Thought about consolidating repeated bits of code from count_onc_ticket_updates & count_good_ratings but realized there is only a small bit of repeated code - a lot of it is quite similar, but not exactly the same
+* Updated [Exercism](http://exercism.io/) "Convert DNA to RNA" problem based on a comment suggesting that I update a name and an indent
+* Started work on [Exercism](http://exercism.io/) "Raindrops" problem and made a good amount of progress
+
+**Thoughts**: I noticed that I felt a little faster when working the Raindrops problem, but I'm nowhere near where I should be - especially given that it is extremely similar to the popular "FizzBuzz" interview question.  I'm still running into issues where I don't have the grasp of scope that I should, so I want to read more code to get myself more familiar with that.  
+
+I also really need to read up on Git because I have a whole heck of a lot to learn there as well.'
+
+**Link to work**: 
+* Haven't submitted the "Raindrops" [Exercism](http://exercism.io/) problem yet, so I don't have a link for it
+* "Convert DNA to RNA" [Exercism](http://exercism.io/) problem update: http://exercism.io/submissions/47e0e79a67de43f1a3975e31a9866e79
+* Update to count_good_ratings in Pegacorn Project: https://github.com/twoesplease/pegacorn_project/blob/master/count_good_ratings.rb
+* Update to count_onc_ticket_updates in Pegacorn Project: https://github.com/twoesplease/pegacorn_project/blob/master/count_onc_ticket_updates.rb
+
 ### Day 23: July 30th, 2017 ###
 (6pm - 7:17pm)
 
-**Today's Progress**: So, I've spent a lot of this afternoon on Raspberry Pi stuff, but I'm only counting a bit of it for my hours of code.  Today I first followed a YouTube tutorial on how to light an LED with my Raspberry Pi, and then I used some information from another tutorial along with code from the [Pi_Piper repo](https://github.com/jwhitehorn/pi_piper) to light up and LED using one of the Pi's GPIO pins according to user input and using morse code!
+**Today's Progress**: So, I've spent a lot of this afternoon on Raspberry Pi stuff, but I'm only counting a bit of it for my hours of code.  Today I first followed a [YouTube tutorial](https://www.youtube.com/watch?v=UApKArED3JU) on how to light an LED with my Raspberry Pi, and then I used some information from [another tutorial](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins) along with code from the [Pi_Piper repo](https://github.com/jwhitehorn/pi_piper) to light up and LED using one of the Pi's GPIO pins according to user input and using morse code!
 
 I tried to also move that code to a class and call it on an instantiated object of the class, but I didn't get that working just yet.
 
