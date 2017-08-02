@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 26: August 2nd, 2017 ###
+(6:44 - 7:47pm) 
+
+**Today's Progress**: 
+* Continued work on the Raindrops Exercism problem I'm working on.
+
+**Thoughts**: Definitely thinking that watching some livecoding videos will help me.  I was using Vim again today, so it held me up a good bit since I'm learning so many shortcuts and a new way of doing things.  But, I also ran into trouble with running my own tests inside my main file of test code than I did with running the suite of tests that come with the problme against the file.  This is because testing in my own file required instantiating objects of the class I created, and I wasn't quite sure how to make a single numeric value available to all 3 of the methods I wrote to solve the problem.  I ended up writing an initialize method containing a class variable and tried to include that class variable as an argument in my other methods, but found out I couldn't do that -- so again, a scope issue I'm running into here that I feel like I should have a grasp on by now.  So excited to feel like I'm finally starting to 'get it' with scope, but I think it may just continue to be an uphill battle hehe.
+
+**Link to work**: Haven't uploaded the problem yet, so nothing to link.
+
+### Day 25: August 1st, 2017 ###
+(7:30 - 8:30 pm)
+
+**Today's Progress**:
+* Searched for Ruby livecoding streams and ended up watching one about using Sonic Pi with Ruby: https://www.youtube.com/watch?v=r2xMo3J8-CA
+* Worked on [Exercism](http://exercism.io/) "Raindrops" problem
+* Used Vim for the first time
+
+**Thoughts**:  While the livecoding stream I watched was cool, I didn't learn much about Ruby -- and to be fair that's not what the talk was really intended for, so it was just not the best choice of video that I made for my purposes.  What I was hoping to come across was real-life manipulation of class variables, instance variables, local variables, using the initialize method, and similar scope-related stuff that's been tripping me up.  That's part of why I've been running into trouble with these Exercism exercises, and I feel like I have some sort of block - like I really should be getting it by now.  So I'm thinking seeing folks use them in real life and explain what they're doing will help it click.  
+
+I also didn't get much code written today because I was using Vim for the first time, so it took me MUCH longer than usual to get anything done.
+
+**Link to work:** Haven't submitted the problem yet, so I don't have one.
+
 ### Day 24: July 31st, 2017 ###
 (7:30 - 8:45pm)
 
