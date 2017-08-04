@@ -1,10 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 27: August 3rd, 2017 ###
+(7:30 - 8:37 pm)
+
+**Today's Progress**:
+* Updated crontab because my daily cron to run the count_good_ratings script for the Pegacorn Project hasn't been working since I required the ['pi_piper'](https://github.com/jwhitehorn/pi_piper) gem in it
+ * I'd previously tried adding "SHELL=/bin/bash" to have it use the same shell I was working with in Terminal, but that didn't work
+ * I found a new solution that recommended I use the same settings as my Ruby version manager, which in my case is RBenv, so I found [this blog post](http://benscheirman.com/2013/12/using-rbenv-in-cron-jobs/) with some steps, but unfortunately that didn't work either so I'll have to do more googling on that
+* Continued with the Raindrops [Exercism](http://exercism.io/)problem I'm working on while also using 
+
+**Thoughts**: I tried to make my code clean for this problem by putting it in three different methods (in addition to the initialize method) that cascaded from one to another (I wonder if this is a good or bad practice?).  But, the name that the Exercism tests required for the method doing the converting didn't match the method that should run first and I didn't notice that right away so my tests were failing for a silly reason.
+
+I made a small bit of progress today by getting the first test passing but did that by moving everything back into a single method, and boy does it look messy.  I was also working slower than usual again today because I've been continuing to use Vim.
+
+I also watched people solving a couple of Ruby katas on YouTube today, and that was definitely a good idea.  Seeing rspec in action is helpful, as is seeing other peoples' thought processes and ways they go about solving the problems.  Plus, there are other tidbits of knowledge sprinkled about in there as well (like seeing someone use Pry, for example).
+
 ### Day 26: August 2nd, 2017 ###
-(6:44 - 7:47pm) 
+(6:44 - 7:47 pm) 
 
 **Today's Progress**: 
-* Continued work on the Raindrops Exercism problem I'm working on.
+* Continued work on the Raindrops [Exercism](http://exercism.io/)  problem I'm working on
 
 **Thoughts**: Definitely thinking that watching some livecoding videos will help me.  I was using Vim again today, so it held me up a good bit since I'm learning so many shortcuts and a new way of doing things.  But, I also ran into trouble with running my own tests inside my main file of test code than I did with running the suite of tests that come with the problme against the file.  This is because testing in my own file required instantiating objects of the class I created, and I wasn't quite sure how to make a single numeric value available to all 3 of the methods I wrote to solve the problem.  I ended up writing an initialize method containing a class variable and tried to include that class variable as an argument in my other methods, but found out I couldn't do that -- so again, a scope issue I'm running into here that I feel like I should have a grasp on by now.  So excited to feel like I'm finally starting to 'get it' with scope, but I think it may just continue to be an uphill battle hehe.
 
