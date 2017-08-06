@@ -5,7 +5,7 @@
 
 **Today's Progress**:
 * Continued work on the "Raindrops" Exercism problem I've been working on, but fewer tests are passing now than before - whoopsie!  The reason is because I was originally returning prime factors rather than all factors, and since I've gotten that fixed I've broken something else.
-* Did a bit more digging last night after I completed my log and came across the updated verion of my file after all, though I'm not sure how.  Vim was asking me if I wanted to use a recovered version, which I tried but none of them were the version I wanted.  When I finally gave up and said that no, I didn't want to use any recovered versions, and lo and behold there was my old version ¯\_(ツ)_/¯
+* Did a bit more digging last night after I completed my log and came across the updated verion of my file after all, though I'm not sure how.  Vim was asking me if I wanted to use a recovered version, which I tried but none of them were the version I wanted.  When I finally gave up and said that no, I didn't want to use any recovered versions, and lo and behold there was my old version  ¯\_(ツ)_/¯
 
 **Thoughts**: Wish I was progressing much faster than I am, but I know I'm learning so I'll just keep at it.
 
