@@ -8,7 +8,7 @@
 * Also read other solutions to the problem.
 
 **Thoughts**: 
-I had my first time where I felt like I knew exactly what I needed to do to solve a small problem that was causing a test failure, land it worked the first time I tried it.  It was just one simple line that I needed to write to solve it, but I’m so excited to have more of that happen on a larger scale.
+I had my first time where I felt like I knew exactly what I needed to do to solve a small problem that was causing a test failure, and it worked the first time I tried it.  It was just a couple of simple lines that I needed to write to solve it, but I’m so excited to have more of that happen on a larger scale.
 
 Looking through the solutions, I saw that one of them chained methods to end, which I didn’t know was possible.
 
