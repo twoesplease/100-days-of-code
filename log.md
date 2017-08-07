@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 30: August 6th, 2017 ###
+(9:34pm - 10:42pm)
+
+**Today's Progress**:
+* Finally got all the tests for this Exercism Raindrops problem to pass, & submitted that problem.
+* Also read other solutions to the problem.
+
+**Thoughts**: 
+I had my first time where I felt like I knew exactly what I needed to do to solve a small problem that was causing a test failure, land it worked the first time I tried it.  It was just one simple line that I needed to write to solve it, but I’m so excited to have more of that happen on a larger scale.
+
+Looking through the solutions, I saw that one of them chained methods to end, which I didn’t know was possible.
+
+I was also dismayed that my solution was longer than some of the others, but then I came across one from someone who critiques other solutions frequently (and who I therefore assume knows much more than I do about Ruby), and theirs is similarly long to mine.  I know that shorter isn’t always better because sometimes more verbose code is more human-readable, but I want to strike a good balance.
+
+**Link to work**: http://exercism.io/submissions/779a4004d0484b7389392f6b09bf57e2
+
 ### Day 29: August 5th, 2017 ###
 (9:54pm - 10:59pm)
 
@@ -8,6 +24,28 @@
 * Did a bit more digging last night after I completed my log and came across the updated verion of my file after all, though I'm not sure how.  Vim was asking me if I wanted to use a recovered version, which I tried but none of them were the version I wanted.  When I finally gave up and said that no, I didn't want to use any recovered versions, and lo and behold there was my old version  ¯\\_(ツ)_/¯
 
 **Thoughts**: Wish I was progressing much faster than I am, but I know I'm learning so I'll just keep at it.
+
+One thing that's making me feel discouraged is that I was having trouble writing a method to determine the factors for an integer.  I made it this far:
+
+`def self.find_factors(number)
+   range = (1..number)
+   range.each do |potential_factor|
+     if potential_factor.to_i * range.each {|potential_factor| return potential_factor.to_i} == number
+       factors.push(potential_factor)
+     else
+       puts “skip to the next value in the range”
+     end
+   end
+   factors.uniq!
+   puts factors
+end`
+
+But, when I looked it up online, I found that I could achieve my goal with just:
+
+`factors = (1..number).select { |n| number % n == 0}
+factors.uniq!`
+
+I'm ready to be able to write simpler, more succinct code like that on the first go.
 
 **Link to work**: None yet as I haven't submitted the problem.
 
