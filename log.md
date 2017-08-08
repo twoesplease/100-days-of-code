@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 32: August 6th, 2017 ###
+(6:01pm - 7:01pm)
+
+**Today's Progress**:
+* Emailed Zendesk support team to try to get more info on why the OAuth token I'm trying to use to connect to their Real-Time Chat API isn't working.  Figuring that out will allow me to move forward with the Pegacorn Project.
+* Finished Exercism](http://exercism.io/) "Difference of Squares" problem
+
+**Thoughts**
+Adding up the time I spent on this Exercism problem yesterday and today, I think i comes very close to an hour.  It was a problem that seemed really straightforward and that I should finish pretty quickly.  Even though I didn't finish as quickly as I expected to and the problem was pretty simple, I'm glad to have finished one in about an hour.
+
+The biggest problem I ran into was issues with scope & using instance variables.  I tried to use an attr_reader when I didn't really need one, which shows me that I really need to get a better grip on scope.  I feel frustrated that I don't understand it better, given how many times I've read about it.  It makes sense in the moment when I read about it, but then I don't remember what I've read.  I really want to find some videos on the topic to see people using it more in real life, but it sounds like I also need to either design some exercises for myself around it (which is difficult since I don't understand it properly) OR find some kind of exercises online, and/or read about them every day so that the info will stick in my brain.
+
+I also used #to_a in one of my methods on the exercise, and the commenter on my "Raindrops" problem told me that #to_a can be a code smell.  I'm not sure what I could or should have used instead in that method, but I'm going to look at other peoples' answers to get some ideas.
+
+**Link to work**: http://exercism.io/submissions/86d9dd70440b43bf888d1249c9831dd2
+
 ### Day 31: August 6th, 2017 ###
 (8pm - ~9:30pm)
 
@@ -7,7 +23,7 @@
 * Spent waaay too much time tyring to install the Powerline plugin for vim and all its associated requirements
    * Couldn't end up getting it to work, and then I found the Airline plugin which I was able to get installed in about a minute
 * Reviewed a couple of other folks' solutions to the "Raindrops" [Exercism](http://exercism.io/) problem
-* Started on the next [Exercism](http://exercism.io/) problem, "Sum of Squares"
+* Started on the next [Exercism](http://exercism.io/) problem, "Difference of Squares"
 
 **Thoughts**: 
 Shoudln't have spent so much time trying to install that darn plugin.  This time is for coding, not customizing my tools!
