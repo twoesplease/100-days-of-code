@@ -1,10 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 31: August 6th, 2017 ###
+(8pm - ~9:30pm)
+
+**Today's Progress**: 
+* Spent waaay too much time tyring to install the Powerline plugin for vim and all its associated requirements
+   * Couldn't end up getting it to work, and then I found the Airline plugin which I was able to get installed in about a minute
+* Reviewed a couple of other folks' solutions to the "Raindrops" [Exercism](http://exercism.io/) problem
+* Started on the next [Exercism](http://exercism.io/) problem, "Sum of Squares"
+
+**Thoughts**: 
+Shoudln't have spent so much time trying to install that darn plugin.  This time is for coding, not customizing my tools!
+
+While I think the Exercism problems are a fantastic exercise, I want to be sure that I spend a good amount of my time working on project-based code too.  I think this will force me to think bigger-picture and in terms of the systems I'm designing and how they'll work together, and will force me to get familiar with other technologies as well.
+
+Perhaps I should start on a Rails project as I'm reading through Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/) book, and do what I can as I learn it.
+
+**Link to work**: Haven't submitted the newest problem yet, so I don't have a link.
+
 ### Day 30: August 6th, 2017 ###
 (9:34pm - 10:42pm)
 
 **Today's Progress**:
-* Finally got all the tests for this Exercism Raindrops problem to pass, & submitted that problem.
+* Finally got all the tests for this [Exercism](http://exercism.io/) "Raindrops" problem to pass, & submitted that problem.
 * Also read other solutions to the problem.
 
 **Thoughts**: 
@@ -20,7 +38,7 @@ I was also dismayed that my solution was longer than some of the others, but the
 (9:54pm - 10:59pm)
 
 **Today's Progress**:
-* Continued work on the "Raindrops" Exercism problem I've been working on, but fewer tests are passing now than before - whoopsie!  The reason is because I was originally returning prime factors rather than all factors, and since I've gotten that fixed I've broken something else.
+* Continued work on the "Raindrops" [Exercism](http://exercism.io/) problem I've been working on, but fewer tests are passing now than before - whoopsie!  The reason is because I was originally returning prime factors rather than all factors, and since I've gotten that fixed I've broken something else.
 * Did a bit more digging last night after I completed my log and came across the updated verion of my file after all, though I'm not sure how.  Vim was asking me if I wanted to use a recovered version, which I tried but none of them were the version I wanted.  When I finally gave up and said that no, I didn't want to use any recovered versions, and lo and behold there was my old version  ¯\\_(ツ)_/¯
 
 **Thoughts**: Wish I was progressing much faster than I am, but I know I'm learning so I'll just keep at it.
@@ -55,7 +73,7 @@ I'm ready to be able to write simpler, more succinct code like that on the first
 **Today's Progress**: 
 * Updated crontab again because yesterday's fix didn't work
  * Today, I specified my full path (including the rbenv shims) before the cron job & that fixed it - now it can find the pi_piper gem
-* Continued work on the "Raindrops" Exercism problem I've been working on, now 5 out of 19 tests are passing
+* Continued work on the "Raindrops" [Exercism](http://exercism.io/) problem I've been working on, now 5 out of 19 tests are passing
  * Some of my work from yesterday didn't save so I had to redo it
 * Worked a bit more quickly in Vim today
 
