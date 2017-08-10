@@ -1,6 +1,24 @@
 # 100 Days Of Code - Log
 
-### Day 32: August 6th, 2017 ###
+### Day 33: August 9th, 2017 ###
+(6:45pm - 8pm, ~9:30 - 10:15p)
+
+**Today's Progress**: 
+
+* Attended Atlanta Ruby Users Meetup Group & listened to presentation on CI/CD with Codeship
+* Tried to set up Rubocop in Vim, realized it wouldn't work in Vim or in command line
+* Reviewed #Exercism comments
+
+**Thoughts**: 
+
+* The presentation on CodeShip was pretty intensive, but it was good to hear a basic overview of how a CI/CD development process could go
+* Attempted to install Rubocop since I've gotten comments a couple of times on Exercism exercises that it could help me out with some of the formatting recommendations that could help me
+  * After figuring out how to customize the leader key in Vim & realizing I needed to install the rubocop gem *before* attempting to add the plugin in Vim, I realized I was getting the same error message ("Permission denied @ dir_s_mkdir") when attempting to use Rubocop in the CLI and inside Vim (I originally thought it was just a Vim issue).  After investigating on Stack Overflow and changing permissions on a bunch of different directories, I still didn't get it working.
+* So thankful for the one same person who keeps commenting on my Exercism exercises with helpful feedback!
+
+**Link to work**: None for today.
+
+### Day 32: August 8th, 2017 ###
 (6:01pm - 7:01pm)
 
 **Today's Progress**:
@@ -16,7 +34,7 @@ I also used #to_a in one of my methods on the exercise, and the commenter on my 
 
 **Link to work**: http://exercism.io/submissions/86d9dd70440b43bf888d1249c9831dd2
 
-### Day 31: August 6th, 2017 ###
+### Day 31: August 7th, 2017 ###
 (8pm - ~9:30pm)
 
 **Today's Progress**: 
