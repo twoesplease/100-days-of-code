@@ -1,10 +1,31 @@
 # 100 Days Of Code - Log
 
-### Day 33: August 9th, 2017 ###
-(6:45pm - 8pm, ~9:30 - 10:15p)
+### Day 34: August 10th, 2017 ###
+(8 - 9:43pm)
 
 **Today's Progress**: 
+* Got Rubocop working in & out of Vim by changing file permissions recursively for the necessary .cache directory with `chmod -R` - this allowed all the directories inside of it to have their permissions changed too
+* Updated 3 of my previous Vim exercises based on comments from a reviewer as well as offenses found by Rubocop
+ * Researched usage and syntax for blocks, procs, lambdas, and enumerators (specifically `#inject`) as part of this process
+ * Replaced/removed a couple of unnecessary `#to_a` methods as part of this process as well
+ * One submission (RNA Transcription) was too similar to the one before it, so Exercism wouldn't let me resubmit - but I can know in my heart that it's a bit better than it was before
+* Installed tldr CLI tool, which is an alternative to man for quick reference
+* Submitted request for Opportunity Scholarship to RubyConf 2017
 
+**Thoughts**: 
+* I'm glad I'm getting a little bit of insight into when and why using certain methods isn't recommended, and which ones are better to use in those scenarios + why.
+* It's also nice to start getting some style advice to help my code look a little nicer and know what common practice in the Ruby community is.
+* Going to RubyConf would be super duper neat - looking forward to hearing back about the scholarship!
+
+**Link to work**:
+* http://exercism.io/submissions/f08f8bc81b2d4672bf33826528b55005  
+* http://exercism.io/submissions/365f64caa5fa4851bd10cfa9de2b4033
+
+
+### Day 33: August 9th, 2017 ###
+(6:45 - 8pm, ~9:30 - 10:15pm)
+
+**Today's Progress**: 
 * Attended Atlanta Ruby Users Meetup Group & listened to presentation on CI/CD with Codeship
 * Tried to set up Rubocop in Vim, realized it wouldn't work in Vim or in command line
 * Reviewed #Exercism comments
