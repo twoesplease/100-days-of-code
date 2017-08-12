@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 35: August 11th, 2017 ###
+(9:15 - 10:15pm)
+
+**Today's Progress**: 
+* Made a couple of updates to my "Raindrops" & "Difference of Squares" Exercism exercises based on comments made to my most recent iterations
+* Started on the first CodeWars kata, whose instructions were to find the item in a string that differed based on evenness and return its idnex, where the index starts at 1 (rather than 0).  So as an example they gave ("2 4 7 8 10"), from which I should return 3 since the 3rd number is odd.
+* I've been speaking with Zendesk support this week, as the steps they've provided in documentation & via email with 2 different reps to get an Oauth token for their real-time chat API (which I need to move forward with the Pegacorn Project) haven't worked for me.  They wanted to set up a remote access session today to watch me go through the process of attempting to get the token, but I felt too sketched out by that concept.  I should take a screencast video to show them my process (& so that I can blur out the appropriate API info as needed) instead.
+
+**Thoughts**: 
+Been feeling under the weather and having a hard time focusing today.  The one person who's commented on my Exercism exercises has been pointing out super helpful things like when I could be using a different enumerator method, various code smells they see, that I have a habit of using `#to_a` and separate accumulator and enumarator methods when I don't need to, and when I have data clumps and formatting issues.
+
+With exercises, I'm noticing a trend that the problem seems like it'll be fairly straightforward to solve but gets tricker as I think about the implementation details.  For this one, knowing that I should avoid my habits of using `#to_a`, `#each`, and separate accumulator and enumartor methods made it tricky for me - especially since I'm not super familiar with alternatives to those yet.  That will get easier as I become more familiar with the Ruby documentation.  Wow, I've got a lot to learn!
+
+I really want to get started on a Rails proejct soon, but I haven't made it far enough in the Rails Tutorial book I'm reading by Michael Hartl to really make any progress.  Hope to change that this weekend, but first I've got to rest up and get feeling better.
+
+**Link to work**: None yet, it's all saved on my machine!
+
 ### Day 34: August 10th, 2017 ###
 (8 - 9:43pm)
 
@@ -13,9 +30,9 @@
 * Submitted request for Opportunity Scholarship to RubyConf 2017
 
 **Thoughts**: 
-* I'm glad I'm getting a little bit of insight into when and why using certain methods isn't recommended, and which ones are better to use in those scenarios + why.
-* It's also nice to start getting some style advice to help my code look a little nicer and know what common practice in the Ruby community is.
-* Going to RubyConf would be super duper neat - looking forward to hearing back about the scholarship!
+I'm glad I'm getting a little bit of insight into when and why using certain methods isn't recommended, and which ones are better to use in those scenarios + why.  It's also nice to start getting some style advice to help my code look a little nicer and know what common practice in the Ruby community is.
+
+Going to RubyConf would be super duper neat - looking forward to hearing back about the scholarship!
 
 **Link to work**:
 * http://exercism.io/submissions/f08f8bc81b2d4672bf33826528b55005  
