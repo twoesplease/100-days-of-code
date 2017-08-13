@@ -6,8 +6,8 @@
 **Today's Progress**: 
 * Did my quickest completion on an [Exercism](http://exercism.io/) problem so far (26 minutes), but it was a very straightforward one (called "Pangram") and I already see ways I can improve it.  I think that's progress though - seeing some of them myself before someone points them out to me.  It's definitely thanks to the person who continually takes the time to comment on my submissions there and what I've learned from those comments.
 * Completed the updates I started yesterday to two of my other [Exercism](http://exercism.io/) problems based on comments about them.  
- * For the "Difference of Squares" problem, I updated a method to be more aligned/cohesive with the other methods I used in the exercise & removed a data clump.
- * For the "Raindrops" problem, I removed magic numbers, made it less dense, fixed indentation, removed an unnecessary `#to_s`, & combined an `each` enumerator with separate accumulator to  `#map!`
+  * For the "Difference of Squares" problem, I updated a method to be more aligned/cohesive with the other methods I used in the exercise & removed a data clump.
+  * For the "Raindrops" problem, I removed magic numbers, made it less dense, fixed indentation, removed an unnecessary `#to_s`, & combined an `each` enumerator with separate accumulator to  `#map!`
  
  **Thoughts**: 
  I haven't forgotten that I want to start a Rails project soon, and the reason I haven't yet is because I don't feel I've made it far enough in Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/book/) book to be able to make much progress in a Rails project on my own -- but I want to read more very soon!
