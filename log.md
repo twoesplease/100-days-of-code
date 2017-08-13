@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 36: August 12th, 2017 ###
+(8:15pm - 9:22pm)
+
+**Today's Progress**: 
+* Did my quickest completion on an [Exercism](http://exercism.io/) problem so far (26 minutes), but it was a very straightforward one (called "Pangram") and I already see ways I can improve it.  I think that's progress though - seeing some of them myself before someone points them out to me.  It's definitely thanks to the person who continually takes the time to comment on my submissions there and what I've learned from those comments.
+* Completed the updates I started yesterday to two of my other [Exercism](http://exercism.io/) problems based on comments about them.  
+ * For the "Difference of Squares" problem, I updated a method to be more aligned/cohesive with the other methods I used in the exercise & removed a data clump.
+ * For the "Raindrops" problem, I removed magic numbers, made it less dense, fixed indentation, removed an unnecessary `#to_s`, & combined an `each` enumerator with separate accumulator to  `#map!`
+ 
+ **Thoughts**: 
+ I haven't forgotten that I want to start a Rails project soon, and the reason I haven't yet is because I don't feel I've made it far enough in Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/book/) book to be able to make much progress in a Rails project on my own -- but I want to read more very soon!
+ 
+ Other things that Exercism comments have taught me that I need to learn more about: Big O notation and how to reduce the complexity in my work, not using `#to_a` if I can help it (I keep doing it!!), data clumps and avoiding them, chaining methods to end, review on blocks/procs/lambads (here’s a resource: http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/ & here’s another: https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes) + short lambda syntax which I used in one of my exercises, metaprogramming (resource: http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/), `#freeze` because Rubocop has recommended that I use it & I don’t fully understand why (resource: http://blog.honeybadger.io/when-to-use-freeze-and-frozen-in-ruby/), & \\ magic numbers and what constitutes one (here’s a resource: https://www.eliotsykes.com/magic-numbers).
+ 
+I'm not progressing as quickly as I want to with my Ruby knowledge - though I don't know if anything apart from lightning speed will satisfy me, but I have definitely gotten much more comfortable using Vim.  I'm by no means a power user, but I can get around and do the things I need to do which was definitely holding me back a bit when I first started using it.
+ 
+ **Link to work**:
+ * "Pangram" problem: http://exercism.io/submissions/7386639180774e5a9a7c829a4e733436
+ * Updated "Difference of Squares" problem: http://exercism.io/submissions/7386639180774e5a9a7c829a4e733436
+ * Updated "Raindrops" problem: http://exercism.io/submissions/365f64caa5fa4851bd10cfa9de2b4033
+ 
 ### Day 35: August 11th, 2017 ###
 (9:15 - 10:15pm)
 
