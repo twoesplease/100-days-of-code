@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 37: August 13th, 2017 ###
+(10:08pm - 11:21pm)
+
+**Today's Progress**:
+* Read about connecting an [LED backpack](https://learn.adafruit.com/adafruit-led-backpack/0-dot-56-seven-segment-backpack) I got for my Raspberry Pi to the Pi, and took a peek at the Python library used to run it.
+* Reviewed most recent comments on my [Exercism](http://exercism.io/) submissions
+
+**Thoughts**:
+Whoops, I meant to write some code today but reading about the LED backpack & took a bit, and it's going to be an adventure to figure out how to get it to work with the Pi because the libraries made to work with it are all in Python.  The idea behind getting it was to use it to display the count of whichever data from the Zendesk API is triggering the Pegacorn for the Pegacorn Project.
+
+I also requested the newest Exercism exercise today, but decided to look into the LED backpack instead.
+
+Wish I'd had more time this weekend to make progress in the Hartl book so that I could start on a Rails project.  We'll see if I can make it happen tomorrow.
+
+**Link to work**: No work to link to today.
+
 ### Day 36: August 12th, 2017 ###
 (8:15pm - 9:22pm)
 
