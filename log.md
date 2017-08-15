@@ -1,7 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 38: August 14th, 2017 
+(7:07 - 8:14pm)
+
+**Today's Progress**:
+* Completed [Exercism](http://exericsm.io/) "Sieve" problem and got all tests to pass.
+ * Didn't submit yet because I want to double check that I implemented the algorithm ([Sieve of Erasthones](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) properly.
+ 
+ **Thoughts**: 
+ I didn't get much of a lunch break today, so unfortunately didn't get to make any progress in reading the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book.
+ 
+But I can tell my mind is getting some little Ruby grooves and connections in my neural net that is helping me to grab Ruby information a bit more quickly.  I'm doing alright with Vim too, which probably means I should challenge myself by learning a few new commands :P
+
+**Link to work**: I didn't submit the problem just yet, but I will as soon as I double check it :)
+
 ### Day 37: August 13th, 2017 ###
-(10:08pm - 11:21pm)
+(10:08 - 11:21pm)
 
 **Today's Progress**:
 * Read about connecting an [LED backpack](https://learn.adafruit.com/adafruit-led-backpack/0-dot-56-seven-segment-backpack) I got for my Raspberry Pi to the Pi, and took a peek at the Python library used to run it.
