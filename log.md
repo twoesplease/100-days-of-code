@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 39: August 15th, 2017 ###
+(8:03 - 9:03pm)
+
+**Today's Progress**:
+* Reviewed my original solution to [Exercism](http://exercism.io/) "Sieve" problem & found that it did not properly implement the algorith, so tweaked it a bit
+
+**Thoughts**: 
+* Glad I reviewed this one, & I feel like if I worked on it just a bit longer I could get it solved properly but alas, I need to prioritize getting  my rest.  Made a bit of progress in the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book on my lunch break today, but not enough quite yet to strike out on my own Rails project.
+
+**Link to work**: Didn't upload the problem yet.
+
 ### Day 38: August 14th, 2017 
 (7:07 - 8:14pm)
 
