@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 40: August 16th, 2017 ###
+(10:10 - 11pm)
+
+**Today's Progress**: 
+* Read about TDD in Rails from the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and wrote first tests for the sample app I'm coding as part of the learning process for the book.
+
+**Thoughts**:
+I generally try to limit learning to my lunch break, but I was super exhausted today so I figured I'd read a bit to progress toward creating my own sample Rails app.
+
+**Link to work**: https://github.com/twoesplease/sample_app_hartl
+
 ### Day 39: August 15th, 2017 ###
 (8:03 - 9:03pm)
 
