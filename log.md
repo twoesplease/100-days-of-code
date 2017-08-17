@@ -9,7 +9,7 @@
 **Thoughts**:
 I generally try to limit learning to my lunch break, but I was super exhausted today so I figured I'd read a bit to progress toward creating my own sample Rails app.
 
-**Link to work**: https://github.com/twoesplease/sample_app_hartl
+**Link to work**: https://github.com/twoesplease/sample_app_hartl/tree/static-pages
 
 ### Day 39: August 15th, 2017 ###
 (8:03 - 9:03pm)
