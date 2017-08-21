@@ -4,7 +4,7 @@
 (9:27 - 10:32pm)
 
 **Today's Progress**: 
-* Continued reading the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and adding code to sample projecdt when recommended
+* Continued reading the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book and adding code to sample projecdt when recommended
 * Drafted page layout and data model for new Rails budget tracker app that I want to make
 
 **Thoughts**: 
@@ -19,7 +19,7 @@ The reading that I did today helped me understand some Rails syntax by showing h
 ### Days 41 - 43: August 17th - 19th, 2017 ###
 
 **Progress**: 
-* I've been continuing my progress in the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and following along by adding my sample code to Github when the book recommends that I do so.
+* I've been continuing my progress in the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book and following along by adding my sample code to Github when the book recommends that I do so.
 
 **Thoughts**:
 * I feel guilty whenever I spend more time reading than writing code, and I think I need to temper that.  As part of 100 Days of Code, I should be writing at least a bit of code every day.  A stickler for the rules would say that none of the hour of code should be spent on tutorials, but I'm bending them a bit so that I can have more of a variety of samples at the end of my 100 days.
@@ -30,7 +30,7 @@ Sample app stays updated on Heroku at http://vast-savannah-43395.herokuapp.com/
 (10:10 - 11pm)
 
 **Today's Progress**: 
-* Read about TDD in Rails from the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and wrote first tests for the sample app I'm coding as part of the learning process for the book.
+* Read about TDD in Rails from the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book and wrote first tests for the sample app I'm coding as part of the learning process for the book.
 
 **Thoughts**:
 I generally try to limit learning to my lunch break, but I was super exhausted today so I figured I'd read a bit to progress toward creating my own sample Rails app.
