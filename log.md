@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-## Day 44: August 20th, 2017 ##
+### Day 44: August 20th, 2017 ###
 (9:27 - 10:32pm)
 
 **Today's Progress**: 
@@ -16,7 +16,7 @@ The reading that I did today helped me understand some Rails syntax by showing h
 * The sample app that I'm working on for the book is live here: http://vast-savannah-43395.herokuapp.com/
 * The github repo for the sample app (associated with the book) is here: https://github.com/twoesplease/sample_app_hartl
 
-## Days 41 - 43: August 17th - 19th, 2017 ###
+### Days 41 - 43: August 17th - 19th, 2017 ###
 
 **Progress**: 
 * I've been continuing my progress in the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and following along by adding my sample code to Github when the book recommends that I do so.
