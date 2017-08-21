@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+## Day 44: August 20th, 2017 ##
+(9:27 - 10:32pm)
+
+**Today's Progress**: 
+* Continued reading the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and adding code to sample projecdt when recommended
+* Drafted page layout and data model for new Rails budget tracker app that I want to make
+
+**Thoughts**: 
+It felt good to finally do something that was related to a personal project and not just a tutorial.  Can't wait to start writing the code for this app.
+
+The reading that I did today helped me understand some Rails syntax by showing how it's actually Ruby with some curly braces and parentheses ommitted, which is a big help to me understanding what the heck is going on when I look at Rails code.
+
+**Link to work**: 
+* The sample app that I'm working on for the book is live here: https://git.heroku.com/vast-savannah-43395.git
+* The github repo for the sample app (associated with the book) is here: https://github.com/twoesplease/sample_app_hartl
+
+## Days 41 - 43: August 17th - 19th, 2017 ###
+
+**Progress**: 
+* I've been continuing my progress in the Hartl [Rails Tutorial}(https://www.railstutorial.org/book/) book and following along by adding my sample code to Github when the book recommends that I do so.
+
+**Thoughts**:
+* I feel guilty whenever I spend more time reading than writing code, and I think I need to temper that.  As part of 100 Days of Code, I should be writing at least a bit of code every day.  A stickler for the rules would say that none of the hour of code should be spent on tutorials, but I'm bending them a bit so that I can have more of a variety of samples at the end of my 100 days.
+
+**Link to work**: 
+Sample app stays updated on Heroku at https://git.heroku.com/vast-savannah-43395.git
+
 ### Day 40: August 16th, 2017 ###
 (10:10 - 11pm)
 
