@@ -13,7 +13,7 @@ It felt good to finally do something that was related to a personal project and 
 The reading that I did today helped me understand some Rails syntax by showing how it's actually Ruby with some curly braces and parentheses ommitted, which is a big help to me understanding what the heck is going on when I look at Rails code.
 
 **Link to work**: 
-* The sample app that I'm working on for the book is live here: https://git.heroku.com/vast-savannah-43395.git
+* The sample app that I'm working on for the book is live here: http://vast-savannah-43395.herokuapp.com/
 * The github repo for the sample app (associated with the book) is here: https://github.com/twoesplease/sample_app_hartl
 
 ## Days 41 - 43: August 17th - 19th, 2017 ###
@@ -25,8 +25,7 @@ The reading that I did today helped me understand some Rails syntax by showing h
 * I feel guilty whenever I spend more time reading than writing code, and I think I need to temper that.  As part of 100 Days of Code, I should be writing at least a bit of code every day.  A stickler for the rules would say that none of the hour of code should be spent on tutorials, but I'm bending them a bit so that I can have more of a variety of samples at the end of my 100 days.
 
 **Link to work**: 
-Sample app stays updated on Heroku at https://git.heroku.com/vast-savannah-43395.git
-
+Sample app stays updated on Heroku at http://vast-savannah-43395.herokuapp.com/
 ### Day 40: August 16th, 2017 ###
 (10:10 - 11pm)
 
