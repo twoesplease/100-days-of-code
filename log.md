@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 45: August 21st, 2017 ###
+(8:34 - 9:55pm)
+
+**Today's Progress**: 
+* Continued reading the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book & adding code to sample app - today I added some HTML elements to my sample app's home page and styled them using Bootstrap.  Learned a bit about Bootstrap and Sass, which will definitely come in handy later.
+
+**Thoughts**:
+Reading while taking notes takes SO MUCH LONGER than just reading this book, but I'm hoping the notes will pay off in me retaining a lot more - as long as I use it, I should retain a fair bit (#crossingfingers).
+
+I will have some code added to my own sample project by the end of this week.
+
+**Link to work**: https://github.com/twoesplease/sample_app_hartl/tree/filling-in-layout
+
 ### Day 44: August 20th, 2017 ###
 (9:27 - 10:32pm)
 
