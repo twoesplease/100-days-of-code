@@ -10,7 +10,7 @@
 **Thoughts**: 
 Glad I was able to squeeze in a little extra time today since I didn't get in much time yesterday, and SUPER glad I finally got started on the code for my own personal project, even though it's just a tiny bit.  I felt more lost than I thought I would when I got started on it, but I know just a bit more practice on personal projects will have me feeling much more comfortable.
 
-I'm also glad that I'm getting a taste of testing and seeing the differences between unit and integration tests in real life, because writing software with good test coverage is something I want to get into the habit of.  
+I'm also glad that I'm getting a taste of testing and seeing the differences between unit and integration tests in real life, because writing software with good test coverage is something I want to get into the habit of.  There is an issue with my first integration test, in that it's not finding the links included in my footer - only those in the header, even though all links work properly when I start a Rails server and visit the app  in my browser.  If I move the links to the header, the test runs fine.  I'll have to investigate that more tomorrow.
 
 This bit of the book is focusing a bit more on front-end than I'm particularly interested in, but I know it will be good to have this more full-stack type experience, is helping me learn some terminology that I've seen floating around online, and having this know-how will allow me to have projects that aren't 100% hideous :P
 
