@@ -1,5 +1,35 @@
 # 100 Days Of Code - Log
 
+### Day 47: August 23rd, 2017 ###
+(6:10 - 8:10pm)
+
+**Today's Progress**: 
+* Continued reading the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book & adding code to sample app - today I learned about the elements of the asset pipeline, some benefits of Sass over CSS, updated my routes to named routes, & wrote my first integration tests.
+* I also created the skeleton for the persona Rails project I've been wanting to start, a budget app, and wrote the outline for its home page.
+
+**Thoughts**: 
+Glad I was able to squeeze in a little extra time today since I didn't get in much time yesterday, and SUPER glad I finally got started on the code for my own personal project, even though it's just a tiny bit.  I felt more lost than I thought I would when I got started on it, but I know just a bit more practice on personal projects will have me feeling much more comfortable.
+
+I'm also glad that I'm getting a taste of testing and seeing the differences between unit and integration tests in real life, because writing software with good test coverage is something I want to get into the habit of.  
+
+This bit of the book is focusing a bit more on front-end than I'm particularly interested in, but I know it will be good to have this more full-stack type experience, is helping me learn some terminology that I've seen floating around online, and having this know-how will allow me to have projects that aren't 100% hideous :P
+
+**Link to work**: 
+* Sample app for book: https://github.com/twoesplease/sample_app_hartl/tree/filling-in-layout
+* Link to my budget app's repo: https://github.com/twoesplease/budget-app
+
+### Day 46: August 22nd, 2017 ###
+(12:30 - 1pm)
+
+**Today's Progress**: 
+* Continued reading the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book & adding code to sample app - today was a good refresher on partials.
+
+**Thoughts**: 
+Progress is still feeling slow & I didn't get a whole hour to work today, but I'm trying to focus on the positive that I'm just making progress.
+
+**Link to work**: https://github.com/twoesplease/sample_app_hartl/tree/filling-in-layout
+
+
 ### Day 45: August 21st, 2017 ###
 (8:34 - 9:55pm)
 
