@@ -6,7 +6,7 @@
 **Today's Progress**:
 * I usually don't include time spent at my lunch break in this log, but I spent the entirety of the time during my lunch break trying to figure out the testing issue from last night.  I visually compared my code line-by-line to the book's code, thought through how it all fit together, looked at it in the inspector in Chrome, and ran it through an HTML validator - no issues except a mention of a stylistic error in a comment from the validator.  So confusing, because all the links worked when I tried them out!
 
-When I started my hour this evening, I took a look at it again and figured out that it was an extra exclamation point in an HTML comment.  I had them formatted like '<!-- comment here --!>' rather than '<!-- comment here -->'.  
+When I started my hour this evening, I took a look at it again and figured out that it was an extra exclamation point in an HTML comment.  I had them formatted like <!-- comment here --!> rather than "<!-- comment here -->".  
 * I meant to work on my personal app some this evening, but got carried away working through the Hartl book so I continued that this evening - I added an additional test for page titles and used a new test method as well as created the Users controller & corresponding user model.
 
 * I also looked up how to delete branches locally and remotely from Git, which will definitely be a good skill going forward.
