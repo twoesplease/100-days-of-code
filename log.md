@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 48: August 24th, 2017 ###
+(1:20 - 1:55pm, 9:40-10:42pm)
+
+**Today's Progress**:
+* I usually don't include time spent at my lunch break in this log, but I spent the entirety of the time during my lunch break trying to figure out the testing issue from last night.  I visually compared my code line-by-line to the book's code, thought through how it all fit together, looked at it in the inspector in Chrome, and ran it through an HTML validator - no issues except a mention of a stylistic error in a comment from the validator.  So confusing, because all the links worked when I tried them out!
+
+When I started my hour this evening, I took a look at it again and figured out that it was an extra exclamation point in an HTML comment.  I had them formatted like '<!-- comment here --!>' rather than '<!-- comment here -->'.  
+* I meant to work on my personal app some this evening, but got carried away working through the Hartl book so I continued that this evening - I added an additional test for page titles and used a new test method as well as created the Users controller & corresponding user model.
+
+* I also looked up how to delete branches locally and remotely from Git, which will definitely be a good skill going forward.
+
+**Thoughts**: 
+* Even though figuring out that test error helped me learn troubleshooting skills and get a review on how the pieces of a Rails app work together, and it felt GOOD to figure it out without any help, I wish I had been able to spend my time learning something of a bit more import.  I'm sure this won't be the last time this happens though, and it's just something I'll have to get used to.
+
+**Link to work**: https://github.com/twoesplease/sample_app_hartl/commit/b8bc498f634323dfa64fd5e24a510ab93d45fd7d & https://github.com/twoesplease/sample_app_hartl/commit/82d754f2ede6cf364d0d9fa82c95d6fdc4a9e7cc (2 commits today)
+
 ### Day 47: August 23rd, 2017 ###
 (6:10 - 8:10pm)
 
