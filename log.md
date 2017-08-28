@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 51: August 27th, 2017 ###
+(9:03 - 10:11pm)
+
+**Progress**: 
+* Still chipping away at the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book, and still on the chapter about updating the data model for Users. Today was about validating uniqueness of email address, updating the User table to have an index, and starting on updating the model to account for a (secure) password requirement.
+
+**Thoughts**: 
+I just got back home this evening, and am glad to be back in the realm of reliable internet and being able to push things to Github!  Today I feel like I covered some super important concepts, as well as a couple that seem like they'll take a bit of memorization and review to help stick - fixtures and what they're useful for, validating uniqueness in the database and not just in the model, adding a "before\_save" action in the user model, using Rubular to check regex, and the processes/tools for requiring secure passwords but obscuring them in the database.  
+
+Important concepts that I feel like I picked up today were that you have to create a migration to update the model, the sample case under which duplicate addresses could sneak through the model validations (and therefore why database uniqueness validation should be added too), and an overview on how you can avoid storing a user's password but still check that they entered the right one.
+
+The ATL Ruby Users Group "Hack" night is tomorrow night (where folks come to work on projects), and I'm tempted to go work on my personal Rails project but I'm also a bit apprehensive because I'm so new that I'm a bit embarrassed about all the silly mistakes I'll make and questions I'll have along the way.  We'll see if I venture out...
+
+**Link to work**: https://github.com/twoesplease/sample_app_hartl/tree/modeling-users
+
+### Day 49-50: August 25th - 26th, 2017 ###
+
+**Progress**:
+* Continued working through Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book, specifically on the chapter about modeling users in the sample app, and adding validations and tests for presence, length, and uniqueness of the email address & name values.
+
+**Thoughts**: 
+I was out of town for a wedding these days without a reliable internet connection, so I didn't post an update.  The first evening I made it through about 40 minutes of coding before getting too tired to stay away, and only 20 minutes on the second night (from about 12:20 - 12:45 am, very late for me!).  While I'm not thrilled to say that I didn't spend very much time working, and I didn't make any progress on my personal app, I'm still learning a ton of valuable info that I know I'll be able to refer back to.  I find that spending time every day, even if it's just a little bit, helps me retain things better than going a long time without review too.  Nothing to be too proud of, but small wins nonetheless.
+
+**Link to work**: Without an internet connection, I wasn't able to push anything to Github.
+
 ### Day 48: August 24th, 2017 ###
 (1:20 - 1:55pm, 9:40-10:42pm)
 
