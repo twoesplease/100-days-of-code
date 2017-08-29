@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 52: August 28th, 2017 ###
+(7 - 9:30pm)
+
+**Progress**:
+* Attended Atlanta Ruby Users Group's "Ruby Hack" night, a once-monthly gathering where folks are encouraged to bring Ruby projects they're working on in order to share them and work on them alongside other folks.
+ * Talked with the folks there, who were of varying experience levels
+ * Introduced [Exercism.io](http://exercism.io/) to the folks there by explaining how it works and showing them examples
+ * Observed and threw in suggestions of what I would do for someone who was working on a homework assignment for the Bootcamp they were in
+ * Added a very basic model to my budget app
+ 
+ **Thoughts**: 
+I would have preferred there to be much more working on projects together than general chat about getting started as a Developer, Industry, and Tools - but the meetup mostly consisted of that.  Next time I'll be more assertive.  Of the five folks who were there (I thought there would be more - 15 RSVP'd), 3 of us were newbies and 2 of the folks were experienced/professional devs so this may have had to do with it.  I got a lot more advice than I necessarily asked for as well - I know folks were trying to be super helpful but it felt a bit condescending.  I want to think of a good way to address that too.
+
+Toward the end, when we started working through the person's BootCamp homework, I thought about how I would solve the problems and was able to compare what I know to what that person knew, and I felt alright about my knowledge level.  I also learned a little about byebug (having never used it before), and I definitely want to read more!
+ 
+**Link to work**: Here's the update to my personal budget app - https://github.com/twoesplease/budget-app/tree/user-model
+
 ### Day 51: August 27th, 2017 ###
 (9:03 - 10:11pm)
 
