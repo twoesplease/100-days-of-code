@@ -1,6 +1,22 @@
 # 100 Days Of Code - Log
 
 ### Day 52: August 28th, 2017 ###
+(8:50 - 10:30pm)
+
+**Progress**: 
+* Finished Chatper 6 in Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book - tested out creating a new User object in database and trying out pasword authentication on it
+ * As usual, took notes along the way
+* In my personal app, I added tests for presence of name and email, that they're an appropriate length, & that the email is in the rigth format.  I wanted to come up with these tests on my own, but unfortunately I used the same exact tests from the Hartl book because I couldn't think of a way to iterate on them just yet.  I'm sure I'll get there.  One change I plan to make is to require the password validation to also include special characters.
+* Also read for a couple of minutes about how to put dotfiles under source control.
+
+**Thoughts**:
+It doesn't feel like I wrote a lot up there, but it does feel like I got a good bit accomplished!
+
+**Link to work**: 
+Update to my personal budget app: https://github.com/twoesplease/budget-app/blob/master/test/models/user_test.rb
+Update to Hartl saample project: https://github.com/twoesplease/sample_app_hartl/commit/cde12aea322a7d47cf14ff907a653db11c24308f
+
+### Day 52: August 28th, 2017 ###
 (7 - 9:30pm)
 
 **Progress**:
