@@ -1,6 +1,24 @@
 # 100 Days Of Code - Log
 
-### Day 52: August 28th, 2017 ###
+### Day 53: August 30th, 2017 ###
+(8:56 - 10:19pm)
+
+**Progress**:
+* Continued on my merry way through the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book - Added CRUD operations for Users to routes file, plus a new #show page to display user info & gravatar.
+ * Learned that Rails has a built-in way to generate an MD5 hash - must be a pretty common & useful hashing function
+ * Learned that adding a "debug" line to my view file functions the same way as the "byebug" functionality I saw in action for the first time on Monday
+ 
+ **Thoughts**: 
+It's so exciting to learn concepts that I can see immediately being applied to my sample budget app and also to pretty much any other Rails app I'll write.
+
+The book noted that this chpater would increase in complexity and difficulty quite a bit, and I'm glad that everything is going smoothly and making sense to me so far.
+
+Sidenote, I made some notes while reviewing a Medium article draft for someone in the Rails channel of the CodeNewbie Slack team, and someone else noted that my attention to detail will serve me well as a developer.  ^.^
+
+**Link to work**:
+https://github.com/twoesplease/sample_app_hartl/commit/ca197ecae2971ca087146f982fdcbffd4da81774
+
+### Day 52: August 29th, 2017 ###
 (8:50 - 10:30pm)
 
 **Progress**: 
