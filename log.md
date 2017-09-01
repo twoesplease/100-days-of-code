@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 54: August 31st, 2017 ###
+(8:15 - 9:15pm)
+
+**Progress**:
+* You guessed it!  Progress in the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book - today I added a signup form for new users, made it so that error messages display when invalid data is entered, and added tests to make sure that those errors show up and that invalid data can't be submitted. 
+  * I also worked with private methods & required vs. permitted parameters, which I need a little review on.  Good thing I'll be re-reading this whole chapter when I go back through it to take notes. :)
+* Something else that I did outside my hour today was finally complete a screensharing session with Zendesk support because I still haven't been able to get an Oauth token to use with their real-time chat API, regardless of which of the multiple sets of instructions I follow.  They finally got to see the errors I've been experiencing when I complete the process though, and while our session froze and I didn't get any path toward resolution just yet I plan to check back in with them tomorrow.  This is a small step to move the Pegacorn Project forward.
+* Finally, I read a bit about Opal, a Ruby-to-JavaScript compiler, today by watching most of [this talk](https://www.youtube.com/watch?v=6Co0qmCvgq0), asking folks in one of my tech Slack channels about their thoughts on it (positive), and reading a bit about it on Opal's website. I put it at the end of my list of things to learn and/or research because I definitely want to look into it at some point.
+
+  
+**Thoughts**: 
+I'm having so much fun working through this, and I feel like I'm learning a ton - even though I wish I could just memorize everyting with one pass through it :)
+
+I'm so eager/impatient to work on my own personal projets and be able to have my very own original apps to point people to, but I'm just going to have to be patient and learn these fundamentals before I can do that.
+
+I decided today that after I complete the Pegacorn Project, I want to complete the Pomodoro clock project described over on the [Odin Project website](https://www.theodinproject.com/), and then swap over to [FreeCodeCamp's back-end certification API & dynamic web application projects](https://www.freecodecamp.org/map-aside#nested-collapseDynamicWebApplicationProjects).  Even though FreeCodeCamp is designed to be completed using JavaScript, I'm sure that completing the projects will give me lots of good practice and help me build my portfolio.
+
+I've noticed that my commits have long descriptions, which to me means I should be stopping & committing more often.  I think that each feature (controller udpate to achieve a particular functionality, adding new page, writing tests for a particular functionality) would be a good basis on which to create a commit.
+
+**Link to work**: https://github.com/twoesplease/sample_app_hartl/commit/8d022794ec0aaf16e43bf2be7d48e3480559d4c9
+
 ### Day 53: August 30th, 2017 ###
 (8:56 - 10:19pm)
 
