@@ -1,5 +1,40 @@
 # 100 Days Of Code - Log
 
+### Day 56: September 2nd, 2017 ###
+(10:04 - 11:15pm)
+
+**Progress**:
+* Finished chapter 7 in the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book
+ * Made it through that test I was stuck on - testing that new user signups direct to the right URL
+ * Added flash messages for successful & failed signups
+ * Added test for valid user signups
+ * Updated production app to use SSL & Puma (instead of WEBrick) webserver
+ 
+**Thoughts**:
+After that, all of today's changes felt really relevant and useful, and they're things that I haven't run into much before in other Rails tutorials I've been through.
+
+All this functionality is definitely applicable to my budget app as well, so the next thing I'd like to do is make some updates to that.  I also don't like the fact that I just used a couple of tests out of the Hartl tutorial, so I want to go back through and make those original.
+
+I also remembered to break up my commits today into feature-based ones, and I think that was a good move & a good habit to get into.
+
+**Link to work**:
+* https://github.com/twoesplease/sample_app_hartl/commit/fd0198284d22f2558775656576ff5d8aaba74927
+* https://github.com/twoesplease/sample_app_hartl/commit/37b9cfa66f6c1824f8466a7d19da4167e4fc6766
+* https://github.com/twoesplease/sample_app_hartl/commit/7b71a007d2d55f08c58022ff2f50e978c77d1ff4
+* https://github.com/twoesplease/sample_app_hartl/commit/c98f615626efdc53492685413faaa3ca081e1b93
+
+### Day 55: September 1st, 2017 ###
+(1:22 - 2:05pm)
+
+**Progress**: 
+* Last night, I got stuck on a test that was one of the exercises at the end of a section in the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book.  It's testing that the form action on the new users signup page is correct, but it keeps failing.
+ * Today, I checked a bunch of my files and compared them to the sample code in the book, and they're right as far as I can see.  But when I View Source on the signup page in my browser, the form action URL is not even pointing to a URL that should exist in my app anymore.  I found a source on the form_for method I'm using to create the form, and read up a bit in it.
+ 
+ **Thoughts**:
+ Ok, I cheated today because I counted the time I spent during lunch as my coding time, which I don't usually do - but I was super tired when I got home, & chose to catch up a little on my sleep instead of coding more.  I feel a little bad, but I think doing a bit less to catch up on my rest is okay every once in a while.
+ 
+ **Link to work**: No additions today :#
+
 ### Day 54: August 31st, 2017 ###
 (8:15 - 9:15pm)
 
