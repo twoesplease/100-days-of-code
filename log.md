@@ -22,6 +22,7 @@ I also remembered to break up my commits today into feature-based ones, and I th
 * https://github.com/twoesplease/sample_app_hartl/commit/37b9cfa66f6c1824f8466a7d19da4167e4fc6766
 * https://github.com/twoesplease/sample_app_hartl/commit/7b71a007d2d55f08c58022ff2f50e978c77d1ff4
 * https://github.com/twoesplease/sample_app_hartl/commit/c98f615626efdc53492685413faaa3ca081e1b93
+& And here's the link to my signup page live in production!: https://vast-savannah-43395.herokuapp.com/signup
 
 ### Day 55: September 1st, 2017 ###
 (1:22 - 2:05pm)
