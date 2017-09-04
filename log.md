@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 57: September 3rd, 2017 ###
+(8:47 - 9:49pm)
+
+**Progress**:
+* Made some updates to the User model & its tests in my Budget app, heavily inspired/influenced by the process I've been going through in the Hartl tutorial
+ * Added secure password requirement to user model
+ * Added tests for password validation
+ * Started on tests for email validation
+ 
+ 
+ **Thoughts**:
+I would have liked to have made more progress today, but I got hung up by a couple of typos.  I think it's ok that it's taking me a while because I'm getting used to the errors that I'm seeing, and honestly still have much to learn about how things fit together.  
+
+Trying to dust the cobwebs off the information in my brain, and forcing me to call upon it and use it out of order from the tutorial and not necessarily exactly in the way described is going to be awkward at first and it's going to take me some practice to get right.  I'll get there!
+
+I remembered to make separate commits per feature today, but I made them all on my master branch - oops!
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/85cdba353cbf2246eafe65891209fc9d956a223c
+* https://github.com/twoesplease/budget-app/commit/b5175c628633a80c57f3b5725255c1a27471e267
+
 ### Day 56: September 2nd, 2017 ###
 (10:04 - 11:15pm)
 
