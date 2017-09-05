@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 59: September 4th, 2017 ###
+(6:25 - 7:39pm)
+
+**Progress**
+* Completed a tutorial on Minitest: https://semaphoreci.com/community/tutorials/getting-started-with-minitest
+* Troubleshot an issue where my test success/error/failure output was displaying twice
+
+**Thoughts**
+Thought I would complete this tutorial and have a bit more time to work on my Budget app, but I got sucked into researching an unforeseen issue - I should know to expect this by now :P
+
+I didn't end up figuring out the issue with my doubled output, even after a stack overflow search, asking in CodeNewbie Slack, unisntalling & reinstalling the minitest gem & the minitest-happy gem, checking in the Exercism Github annals to see if it'd ever instructed me to change my Minitest config, editing the Gemfile for this test project, & peeking through one of the minitest config files saved to my computer.  Oh well, I'll have to keep digging at it another day.
+
+Here are some other resources that I'd like to read through regarding minitest: 
+* https://launchschool.com/blog/assert-yourself-an-introduction-to-minitest
+* http://docs.seattlerb.org/minitest/
+
+**Link to work**:
+Didn't upload anything to Github today.
+
 ### Day 58: September 4th, 2017 ###
 (8:15 - 9:17pm)
 
