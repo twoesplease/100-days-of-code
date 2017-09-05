@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 58: September 4th, 2017 ###
+(8:15 - 9:17pm)
+
+**Progress**
+* Used what I've learned from the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book to add email address validation regex to my User model, as well as create tests for that
+* Added a index to the User model's email column to prevent a full-table search when validating email uniqueness
+
+**Thoughts**: 
+Again, got stuck on typos here and there, but I also ran into a couple of other weird things that I had to work through and these prevented me from being able to get more done during this hour.  I definitely learned some things though!  
+
+The first thing was that I was getting errors in my email validation tests, and adding custom error messages to those tests allowed me to determine which sample addresses were causing the issue.  I then had to tweak my regex a bit to accomodate some sample addresses from my tests that were, in fact either invalid or valid but weren't testing as such.
+
+The other thing was that the first time I tried to migrate my addition of an index to the User email column in my database, I got an error about an undefined local variable or method "unique."  But I had a mention of uniqueness in my User model...When I googled, a Stack Overflow answer recommended that I re-generate the migration.  When I deleted the old one and created a new one, then tried to migrate it - it worked.  Not sure what was up with that.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/1c209881b9e8c11f5e66f88484c72b22c70b6c85
+* https://github.com/twoesplease/budget-app/commit/ab3d37beda73b0969c227176c9f405da6aaf6114
+
 ### Day 57: September 3rd, 2017 ###
 (8:47 - 9:49pm)
 
@@ -8,7 +27,6 @@
  * Added secure password requirement to user model
  * Added tests for password validation
  * Started on tests for email validation
- 
  
  **Thoughts**:
 I would have liked to have made more progress today, but I got hung up by a couple of typos.  I think it's ok that it's taking me a while because I'm getting used to the errors that I'm seeing, and honestly still have much to learn about how things fit together.  
