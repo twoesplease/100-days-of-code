@@ -13,7 +13,7 @@
  **Thoughts**:
 I would have liked to have made more progress today, but I got hung up by a couple of typos.  I think it's ok that it's taking me a while because I'm getting used to the errors that I'm seeing, and honestly still have much to learn about how things fit together.  
 
-Trying to dust the cobwebs off the information in my brain, and forcing me to call upon it and use it out of order from the tutorial and not necessarily exactly in the way described is going to be awkward at first and it's going to take me some practice to get right.  I'll get there!
+Trying to dust the cobwebs off the information in my brain, and forcing me to call upon it and use it out of order from the Hartl Rails tutorial and not necessarily exactly in the way described there is going to be awkward at first and it's going to take me some practice to get right.  I'll get there!
 
 I remembered to make separate commits per feature today, but I made them all on my master branch - oops!
 
