@@ -1,6 +1,26 @@
 # 100 Days Of Code - Log
 
-### Day 59: September 4th, 2017 ###
+### Day 60: September 6th, 2017 ###
+(9:15 - 10:20pm)
+
+**Progress**:
+* Updated show & new methods in the User model of my Budget App
+* Created skeleton User profile page
+ * Added a user via Rails console so there'd be a user profile page to show
+* Added private method with strong params for User model
+* Bonus: Peeked in on CodeNewbie Wednesday chat & answered questions here and there - want to go back and look at replies to the questions from other folks though!
+
+**Thoughts**:
+I'm remembering vague pieces of info from the Hartl [Rails Tutorial](https://www.railstutorial.org/book/) book, but they're not as concrete in my mind as I'd like them to be and they don't always reappear at the times I need them.  
+
+I can feel my brain leaning toward getting discouraged for not having memorized this info exactly and having to look things up or struggle through this process a bit, but I'm pushing that away because this is what my learning process is like & I know I'm going to get there.  The best way to do that is to keep building!
+
+I also missed out on my usual lunch break habit of doing some review, which makes me feel a little bummed out but I'll get back at it tomorrow.
+
+**Link to work**:
+Here's today's commit: https://github.com/twoesplease/budget-app/commit/bccc361c8fe4f8e06ce1ece2598904803b883f06
+
+### Day 59: September 5th, 2017 ###
 (6:25 - 7:39pm)
 
 **Progress**
