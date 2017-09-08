@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 61: September 7th, 2017 ###
+(8 - 9:26pm)
+
+**Progress**: 
+* Removed weird extra "string" column from Users table
+* Figured out how to create one-to-many relationships and did some data modeling, then:
+  * Created Budget & Transaction models
+* Created Budgets controller
+* Then realized that I failed to plan descriptive titles for either of my new models when data modeling, so added a name field to Budgets table & a note field to Transactions table
+ 
+ **Thoughts**: 
+ I was distracted today because a friend was over at my house hanging out with my partner, and I was helping them make a batch of kombucha.
+ 
+ I'm still feeling like I'm flailing around a bit and don't know which order to do things in - kind of like I'm grasping at straws of disparate info that I've seen somewhere, sometime.  I can feel myself really reaching for structure for this info in my brain though, so I'm hoping it wont' be too long before I get a rough outline down in my brain.
+ 
+ I'm thinking I may re-watch some Rails for Zombies and/or Treehouse Rails videos in spare moments (haha!) to have another format/source to integrate this info into my brain.
+ 
+ **Link to work**:
+ Here are today's commits:
+ * https://github.com/twoesplease/budget-app/commit/bd45186a70725cc417c015470a8b96e49d28e327
+ * https://github.com/twoesplease/budget-app/commit/c88fabf9e90f8a4b714ac358877657920608a43f
+ * https://github.com/twoesplease/budget-app/commit/6db4fc754860957ab520ffd2eca395da09c39eb6
+
 ### Day 60: September 6th, 2017 ###
 (9:15 - 10:20pm)
 
