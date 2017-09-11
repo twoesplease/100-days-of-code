@@ -23,14 +23,46 @@
  * https://github.com/twoesplease/pegacorn_project/commit/eba083d9c0269851c3c506c99dd5007297da6844
  * https://github.com/twoesplease/pegacorn_project/commit/b19e22f734837e769e61ea475c73850db1a007d3
 
-9/10: 
-Got gem download working as well as Rubocop.  Watched some Rails for Zombies.  So tired.
+### Day 64: September 10th, 2017 ###
+(9:50 - 10:40p) 
 
-9/9: 
-Fixe dperms issues & played wi/ Kano with my brother
+**Progress**:
+* Got gem download working on new machine, as well as Rubocop in Vim.  
+* Rewatched some Rails for Zombies videos.  
 
-9/8:
-Watched some Rails for Zombies.  
+**Thoughts**:
+Setting up a new machine is a pain.  Also, didn't make it through the hour because I was too tired and needed to sleep.
+
+**Link to work**:
+No commits today.
+
+### Day 65: September 9th, 2017 ###
+(Much of the day)
+
+**Progress**: 
+* Fixed some permissions issues on new machine (my user doesn't have privileges to do an.y.thing)
+* Set up a [Kano]https://kano.me/ computer kit with my brother and showed him some cool stuff in [Scratch](https://scratch.mit.edu/) + explained a bit about the [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computer in the kit
+* Also got to play around a bit with [Sonic Pi](http://sonic-pi.net/) - super neat!
+
+**Thoughts**:
+I went to visit my family for my dad and brother's birthdays, so I didn't have a ton of time to myself to code.  The time that I did have, I spent trying to resolve some weird permissions issues.
+
+I did spend a good bit of time with my brother using [Scratch](https://scratch.mit.edu/) for the first time along with him.  I'd also never used [Sonic Pi](http://sonic-pi.net/) before, and had a blast doing that!
+
+**Link to work**:
+No commits today.
+
+### Day 64: September 8th, 2017###
+(Not sure)
+
+**Progress**:
+* Rewatched some Rails for Zombies videos.
+
+**Thoughts**: 
+I've been working on setting up a new machine I got at work today, and haven't been able to move over the files I've been working in during my 100 Days of Code, so I just did some review today.
+
+**Link to work**:
+No commits today.
 
 ### Day 61: September 7th, 2017 ###
 (8 - 9:26pm)
