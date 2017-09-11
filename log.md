@@ -1,6 +1,27 @@
 # 100 Days Of Code - Log
 
-##Will update D62-64 tomorrow##
+### Day 65: September 11th, 2017 ###
+(5:32 - 6:40pm)
+
+**Progress**: 
+* Worked on Pegacorn Project
+ * Fixed a code error when constructing the end time of the window for counting ONC ticket updates
+ * Fiddled with logic for making a websockets connection to the Zendesk Real-time Chat API using the [em-websocket gem](https://github.com/igrigorik/em-websocket), but wasn't able to get it working yet.
+ 
+ **Thoughts**:
+ After many emails and multiple chats with multiple Zendesk support agents, on Friday I was finally able to get a workaround for a bug that's been preventing me from getting an OAuth access token.  Now that I've got one, I've been able to connect to the Zendesk chat API which means that I can make progress with the Pegacorn Project.
+ 
+ Today, I reinstalled the [em-websocket gem](https://github.com/igrigorik/em-websocket) on my new machine and worked on the code I'm tring to use to connect to the Real-Time Chat API using that gem -- but I wasn't able to make a successful connection yet.  I know that I'm able to connect to at least the REST portion of the real-time chat API though, because I made some sample cURL requests to verify that my OAuth token was working the other day.  I was worried that I wouldn't have a clue what my code was doing since it's been a while since I looked at it - but luckily, I remembered.  That means what I've been learning is sticking - yay!
+ 
+ I'm a little bummed out that I wasn't able to get the connection working quite yet, but I don't have any Ruby code for the Zendesk API to reference so I'm having to work with the examples I have in the [em-websocket gem](https://github.com/igrigorik/em-websocket) and the [Zendesk Real-Time Chat API documentation](https://developer.zendesk.com/rest_api/docs/chat/apis).  I'll get it.
+ 
+ I also committed some other small updates I've made on the Pegacorn Project outside of my 100 Days of Code work time.
+ 
+ **Link to work**: 
+ Here are today's commits:
+ * https://github.com/twoesplease/pegacorn_project/commit/e456943863cdd3e1c4ff729206620138f6e6aa88
+ * https://github.com/twoesplease/pegacorn_project/commit/eba083d9c0269851c3c506c99dd5007297da6844
+ * https://github.com/twoesplease/pegacorn_project/commit/b19e22f734837e769e61ea475c73850db1a007d3
 
 9/10: 
 Got gem download working as well as Rubocop.  Watched some Rails for Zombies.  So tired.
