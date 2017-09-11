@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+##Will update D62-64 tomorrow##
+
+9/10: 
+Got gem download working as well as Rubocop.  Watched some Rails for Zombies.  So tired.
+
+9/9: 
+Fixe dperms issues & played wi/ Kano with my brother
+
+9/8:
+Watched some Rails for Zombies.  
+
 ### Day 61: September 7th, 2017 ###
 (8 - 9:26pm)
 
