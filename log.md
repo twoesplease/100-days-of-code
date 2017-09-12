@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 66: September 12th, 2017 ###
+(5:50 - 6:57pm)
+
+**Progress**: 
+* Added new user and new budget creation forms to sample app
+ * Added link to create new user on the app's home page
+ * Add link to create new budget from a user's profile page
+* Updated user model to reflect a has-many relationship to budgets, and updated the budget model to reflect a has-many relationship to transactions
+
+**Thoughts**:
+Feels good to know a little more about Rails today!  I still have a tone to learn, but the info is definitely coming together a little bit in my brain :)
+
+Outside of my hour of coding time today, I installed the vim-surround plugin which I think will come in super handy once I get good at using it.  I also proposed the idea of doing a fun educational course on Sonic Pi (which I'm newly learning about but think is super cool) to a coworker, so I'm interested to see where that goes.
+
+**Link to work**:
+Here are today's commits: 
+* https://github.com/twoesplease/budget-app/commit/183075cc37f6f4d14996fcd44f51055fa3b9fc6e
+* https://github.com/twoesplease/budget-app/commit/183075cc37f6f4d14996fcd44f51055fa3b9fc6e 
+
 ### Day 65: September 11th, 2017 ###
 (5:32 - 6:40pm)
 
