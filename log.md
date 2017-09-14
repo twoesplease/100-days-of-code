@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 67: September 13th, 2017 ###
+(1:10 - 2pm, 4:30 - 6:30pm)
+
+**Progress**:
+* Drafted some validations and tests for Budget model
+* Attended a workshop on Event-Sourced Microservices
+
+**Thoughts**:
+For some reason, I couldn't get the basic check for the .valid? method to pass even without validations on the Budget model.  I got some more tests drafted, but I wanted to run them one at a time so that I could follow the model of
+-write test
+-run test so that it fails
+-write code to pass test
+-run test so that it passes
+
+I wasn't able to get as much out of the workshop as I'd hoped, because my partner was messaging me during the workshop about an issue with one of my dogs.  Sometimes life happens! :shrug:
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/7f94d9c615d68d2e7d58dcf14e0e68125c52c3f2
+* https://github.com/twoesplease/budget-app/commit/d64a492e26241de08a8bdd57a82c293b7d53e0ea
+
 ### Day 66: September 12th, 2017 ###
 (5:50 - 6:57pm)
 
