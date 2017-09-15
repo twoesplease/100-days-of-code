@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 68: September 13th, 2017 ###
+(8:48 - 10pm)
+
+**Progress**:
+* Continued work on validations & tests for Budget model
+* Started using a few new shortcuts for vim: 
+ * One to remove comments with [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
+ * One to open a file tree in a separate buffer with [NERDTree](https://github.com/scrooloose/nerdtree)
+ * One to replace surrounding characters with [vim-surround](https://github.com/tpope/vim-surround)
+ * One to open a new buffer
+* Mistakenly deleted the wrong migration file and had to rollback my development branch to its most recent commit.  
+
+**Thoughts**:
+I spent a decent amount of time figuring out why the .valid? method in my first test woudln't pass, and still wasn't able to figure out after trying several troubleshooting steps.  Couldn't find much about it when Googling either.  I'll have to be persistent.  In the meantime, I flipped over to trying out some new tests.  When I start tomorrow I'll have to continue working on validating a date field so taht it's an actual date and isn't a date in the past.  
+
+Re: Git, the different commands for rolling back changes and when to use each one is something I want to get mmore familiar with - as well as some of the commands in Git that I just haven't used yet.  I think that's something that I don't need to focus on too hardcore, and I have a cheatsheet bookmarked for that in the meantime.
+
+Glad to be digging in a bit more each day and learning how to work more efficiently as well.
+
+**Link to work**:
+I should have made more than one commit today, but I just made one.  Here it is:
+* https://github.com/twoesplease/budget-app/commit/9272a5ed4decc3e2324ac7467563c693d1e370aa
+
 ### Day 67: September 13th, 2017 ###
 (1:10 - 2pm, 4:30 - 6:30pm)
 
