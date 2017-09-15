@@ -6,10 +6,10 @@
 **Progress**:
 * Continued work on validations & tests for Budget model
 * Started using a few new shortcuts for vim: 
- * One to remove comments with [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
- * One to open a file tree in a separate buffer with [NERDTree](https://github.com/scrooloose/nerdtree)
- * One to replace surrounding characters with [vim-surround](https://github.com/tpope/vim-surround)
- * One to open a new buffer
+  * One to remove comments with [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
+  * One to open a file tree in a separate buffer with [NERDTree](https://github.com/scrooloose/nerdtree)
+  * One to replace surrounding characters with [vim-surround](https://github.com/tpope/vim-surround)
+  * One to open a new buffer
 * Mistakenly deleted the wrong migration file and had to rollback my development branch to its most recent commit.  
 
 **Thoughts**:
