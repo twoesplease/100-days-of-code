@@ -1,6 +1,28 @@
 # 100 Days Of Code - Log
 
-### Day 68: September 13th, 2017 ###
+### Day 69: September 15th, 2017 ###
+(9:45 - 11:45pm)
+
+**Progress**:
+* Continued work on validations & tests for Budget model
+  * Did much googling about the best way to validate dates
+  * Found a gem called [date\_validator](https://rubygems.org/gems/date_validator) designed to help validate dates
+  * Updated tests to test valid dates
+* Worked through issue that broke tests and caused them to return error messages instead of running: https://cl.ly/3o1V181N352o
+
+**Thoughts**:
+Working through today's tests issue was not fun, because after all that googling and implementing that gem I wasn't able to then test it out.
+
+I spent an hour figuring out why my tests suddenly weren't working, and figured out that it was because I'd run `brew update && brew upgrade` earlier today just as a habit.  That updated Ruby.  After much googling without much success, plus messing with homebrew & rbenv for an hour, I just copied a file and renamed it to the name that Ruby was looking for and that fixed the test.
+
+It passed, but my tests that are passingare asserting that @budget isn't valid, and I still haven't been able to get @budget.valid? to return true -- so they're not accurate ruight now.  Tomorrow I'll have to do more digging into why my basic validity check isn't working - I feel like it's something elementary.  Maybe I'll dig into using debugging tools - I tried 'debugger' earlier today with a few spare minutes but didn't get very far.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/8332a2e27e9060c7b9cfd3f89baa3fcca24771ad 
+* https://github.com/twoesplease/budget-app/commit/06ac0542c3eaa479f45fff81e0291ec879d91bf3
+
+### Day 68: September 14th, 2017 ###
 (8:48 - 10pm)
 
 **Progress**:
