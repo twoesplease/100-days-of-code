@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 70: September 16th, 2017 ###
+(10:20 - 11:20pm)
+
+**Progress**:
+* Continued trudging along with validations & tests for budget model, to try to get the .valid? method to work in a test
+  * Narrowed down the validations one by one to see which ones caused that .valid? tests to fail, and did the most work on the validation belongs\_to :user since it was the first one creating an issue
+  
+  **Thoughts**: 
+  Though I thought that my budget model's basic validation test was failing even with no validations previously, it seems  that today I was able to narrow the cause of that failure down to 2 separate validations when running the test a with a single validation at a time.
+
+The first validation that caused it to fail was the belongs\_to :user validation, wo I did some work trying to update the relationship between the two so that it would be correct.  I didn't get it working, but I got super tired so decided to switch over to watching a video for my last 10 minutes or so.  This is a video that I've been watching in chunks for several days now, of someone building a Rails move ratings app.  I'll pay attention to how they link the users and review models to get them to play nicely together - should be helpful even though I haven't seen them run tests yet.
+
+Things I can look into after watching the video - set a before\_action on budgets controller to :set\_user, & add to the budgets controller that the user\_id is the current_user.id of the user creating that budget
+
+Side note, I keep forgetting to change over to my development-branch in git whenever I first start working, which leads to merge conflicts when it's time to merge my topic branch.  Today, I just switched back to my development branch after I made my commit so that I'll be in the right place when I get started tomorrow.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/a071f3ad02444b999f0c9e7b2e053898f20af48c
+* https://github.com/twoesplease/budget-app/commit/3b3d4d79401adcc81b1b7d10e43804cacfc0c64c
+
 ### Day 69: September 15th, 2017 ###
 (9:45 - 11:45pm)
 
