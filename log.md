@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 71: September 17th, 2017 ###
+(10:23 - 11:24pm)
+
+**Progress**:
+* Did some work on the Pegacorn Project to try to get my watch\_chat\_waits script to play nice with the Zendesk real-time chat API
+
+**Thoughts**:
+Not much luck today, unfortunately.  I couldn't find the sample JS code that Ionce had as a reference script for working with the real-time chat API, and mine was still returning zilcho.  After trying a couple of changes, I decided to double check that my Oauth creds were still working,but gotan error when attempting to make a cURL request to the REST chat API. This led me downa rabbitholeof regenerating my credentials, with several twists/turns/errors along the way - afew of them relatedto losing some of my history due to having a new machine.  
+
+I finally got them regenerated and was able to make a successful cURL request to the REST chat API, but I think my original problem with that may have been a spacing/format issue - cURL seems so finicky!  Still no luck making a successsful connection to the real-time chat API via my script though.  Next I need to find that sample JS code from Zendesk to reference.  Some helpful error messaging sure would be nice too.
+
+**Link to work**:
+Here's today's commit:
+* https://github.com/twoesplease/pegacorn_project/commit/dc31f07abd24e93bbf81ce8497de32429e284bcd
+
 ### Day 70: September 16th, 2017 ###
 (10:20 - 11:20pm)
 
