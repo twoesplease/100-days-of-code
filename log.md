@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 72: September 18th, 2017 ###
+(10 - 11:20pm)
+
+**Progress**:
+* Found possible source of failing Budget model validity test - Budget model doesn't have an ID column
+  * Tried to fix association between User & Budgets models, but no luck
+
+**Thoughts**:
+Since I found out the last time I was testing this that the validations fail when adding belongs_to :user to my budget model, I figured that not having a unique ID identifier for budgets could be causing the issue.  However, when I attempted to add a new migration to create this column, I got an error that the ID column was a duplicate.  The weird thing was, the id column didn't appear in the db schema and I couldn't find other migrations that were adding it.
+
+I even rolled back my database to version 0 and then attempted to migrate again, but I still got the error about the duplicate column.
+
+Then, I decided to delete the 2 migrations relating to the budget model that were in addition to the migrate that created it.  I didn't get any feedback when I rain rails db:migrate and didn't see a budget ID column in the db schema.  Finally, I created migrations to delete any column mentioning budgets from any non-budget table, but that didn't work either.
+
+Not sure what's going on, and I'm tempted to start over with my models & migrations.
+
+**Link to work**: 
+Here are today's commits: 
+* https://github.com/twoesplease/budget-app/commit/23779f4b6c544502681143b9d32d56fd9c7b9e50
+* https://github.com/twoesplease/budget-app/commit/4c50aaaf381db9fae86e3636a9f48ed32e770755 (hmm, why did this create a separate commit?)
+
 ### Day 71: September 17th, 2017 ###
 (10:23 - 11:24pm)
 
