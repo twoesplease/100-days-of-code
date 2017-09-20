@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 73: September 19th, 2017 ###
+(7:50 - 8:18pm, 9:22 - 10:19pm)
+
+**Progress**:
+* Switched up some syntax to try to make websockets connection to Zendesk Real-Time Chat API
+* Tried [faye-websockets gem](https://github.com/faye/faye-websocket-ruby) to try to make websockets connection to Zendesk Real-Time Chat API also
+
+**Thoughts**:
+I asked for help on this in Slack yesterday, and got an answer today that suggested I try a different gem.  That one didn't look like it would work, but I did decide to give the Faye-Websockets gem a try in this case.  No luck :(
+
+I also tried some more tweaks to the syntax in my original code, but didn't get any new results there either.
+
+It's frustrating to be stuck on the two main projects I'm working on.  Perhaps my next steps for this one will be to make a checklist of things to try, and if I get really desperate to reach out to Zendesk's help team again (though I dread it).
+
+**Link to work**: 
+Here's today's commit:
+* https://github.com/twoesplease/pegacorn_project/commit/5efe1a59b7580dd36f2f81a018e2971ce46bcbfe
+
 ### Day 72: September 18th, 2017 ###
 (10 - 11:20pm)
 
