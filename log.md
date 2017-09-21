@@ -4,7 +4,7 @@
 (9:17 - 10:40pm)
 
 **Progress**: 
-* Attempted to fix test failure (for the basic .validD? test) for budget model
+* Attempted to fix test failure (for the basic .*valid?* test) for budget model
   * Removed and recreated budget model 
   * Recreated associations between User, Budget, & Transactions models & generated corresponding migrations
   * Created objects in consoleto make sure that there were transactions that belonged to a budget and budgets that belonged to a user
