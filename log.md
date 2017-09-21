@@ -1,5 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 74: September 20th, 2017 ###
+(9:17 - 10:40pm)
+
+**Progress**: 
+* Attempted to fix test failure (for the basic .validD? test) for budget model
+  * Removed and recreated budget model 
+  * Recreated associations between User, Budget, & Transactions models & generated corresponding migrations
+  * Created objects in consoleto make sure that there were transactions that belonged to a budget and budgets that belonged to a user
+
+**Thoughts**: 
+I think I can call today's work a yak-shaving experience.  Last time I worked on this, I decided that my budget model was borked and that I needed to redo it to fix the associations between the budget model and the users model.  This was all in an attempt to get the basic validity model test for budgets to pass.  I recreated the budgets model today and found that I probably hadn't generated my migrations properly the first go-round to appropriately link the budgets and users models.  
+TMYK: The associations for belongs_to and has_many are only added to the db schema file if you specify them when creating your models.  After all that work though, my budget model test still fails and it's still because of the line that specifies that a budget *belongs_to* a user.
+
+I tested further today by making sure there were objects in the database that represnted all those associations, but that didn't make a change.  I also decided to test whether budget items that I created via the console returned true for the *.valid?* test -- and they did!  That could mean that there's an issue with the budget object I created in the test file's setup method -- but even specifying a user_id there didn't help.  I ended the night by asking for help in the Rails channel fo the CodeNewbies Slack team.  Hopefully I'll get some help there! 
+
+I did remember to make lots of smaller commits today so that I'd have smaller bits of work to roll back to in the vent that I needed to.  That may very well come in handy, as I had a false start on my work at the beginning of today's hour that I rolled back.  Getting some good practice with those git skills.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/e6455508710aea2bb91e1666116c250f1b498495
+* https://github.com/twoesplease/budget-app/commit/1ba7d5db0d3b23608a439583656a57b5e095ff92
+* https://github.com/twoesplease/budget-app/commit/136a32373aabbc6bd25f419681786b6b785c40ed
+* https://github.com/twoesplease/budget-app/commit/2a038dbc2b660f75af11da3793316754d6f9deb8
+* https://github.com/twoesplease/budget-app/commit/4eccf0f4817f05b2c67b65ce1e57bdde9d53e654
+* https://github.com/twoesplease/budget-app/commit/e1ff0db5394f2ecf0911a81d81845d3dc785f993
+
 ### Day 73: September 19th, 2017 ###
 (7:50 - 8:18pm, 9:22 - 10:19pm)
 
