@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 75: September 21st, 2017 ###
+(5 - 6:30, 9:30 -10pm)
+
+**Progress**:
+* Used debugger with *.errors.full_messages* to fix the issue that was preventing the .valid? test from passing for my Budget model
+* Continued work on Budget model tests
+* Tried to fix an annoying linter highlight issue in my Vim setup
+* Attended "Project Night" to discuss & work on projects with other folks at work
+
+**Thoughts**:
+Definitely did some learning today!  I got a recommendation from someone in a Slack channel to use *.errors.full_messages* to figure out why my test was failing, and I used debugger/byebug to freeze my Budget model test at the right spot to use that chained method.  It told me something about not having a properly-associated User object, and then I figured out that I needed to add one to my setup method.  That taught me a lot about the scope for tests and the setup method that informed the further work I did with my tests.  It feels good to be un-stuck on this project.
+
+Another note: I keep getting issues with swapfiles (.swp extension) in Vim lately, and they're also creating errors with my merges back into master.  I wonder if I keep forgetting to save files before closing them?
+
+I also spent a lot of time today tweaking Vim settings because the linter I use highlights issues it finds in a color that makes text in Vim difficult to see. I tried lots of different settings tweaks and color scheme changes, but none of them really worked well so I'm back to where I started.  Oh well, that can be a fight for another day.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/budget-app/commit/1ee15928b65e3fdd8a2c71d3677019cc68a7a8ab
+* https://github.com/twoesplease/budget-app/commit/16c3cb63d891174f4b4449e20fb38288d6432482
+
 ### Day 74: September 20th, 2017 ###
 (9:17 - 10:40pm)
 
