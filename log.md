@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 76: September 22nd, 2017 ###
+(9:18 - 10:38pm)
+
+**Progress**:
+* Successfully authenticated to Zendesk real-time chat API using faye-websockets gem instead of the original gem I had been using, but got 500 error
+
+**Thoughts**:
+So glad to finally be unstuck on both of my projects!  This one took quite a lot of tweaks, and I still have some progress to make but it's nice not to just be stuck on the same step I started at.
+
+Not sure if the error I'm getting is because I'm not subscribing to a metric yet in the script (I wanted to focus on successfully connecting first), or because there's an issue with the Zendesk Real-Time Chat API.  I'll figure that out the next time I work on this project.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/pegacorn_project/commit/f8686b8b7b5b9c89f605a6b9422f5e787cef5559
+* https://github.com/twoesplease/pegacorn_project/commit/14eb645f6fb2fc7c9c8bed1f5715130bbce4fc6e
+
 ### Day 75: September 21st, 2017 ###
 (5 - 6:30, 9:30 -10pm)
 
