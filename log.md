@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 77: September 23rd, 2017 ###
+(9:26 - 10:40pm)
+
+**Progress**:
+* Updated cdoe connecting to Zendesk's Real-Time Chat API to stop returning a 500 error
+* Started coding along with (a YouTube video by Mackenzie Child)[https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2] that goes through the process of creating a basic blog app
+
+**Thoughts**: 
+It's hard to tell if the code connecting to the Real-Time Chat API is working properly, because it's supposed to get data for chats and chats aren't turned on right now.  I set it to watch for a 30-minute period and it didn't automatically close after 30 minutes or give me any type of response other than a successful connection message, but I'm not sure if that's the expected behavior.  I can check again on Monday when chats are back on.
+
+I also decided to give my brain a little bit of a Rails break and follow along with a fairly simple video so that I could build a simple app where the code was very likely to work (since it's already worked for the person creating the video.  I figuredc it'd be good practice but would be nice to have a mini-project where I wasn't having to do a ton of intense troubleshooting.
+
+Sidenote: Glad that I'm getting into better habits with more frequent commits :)
+
+**Link to work**:
+Here are today's commits: 
+* https://github.com/twoesplease/personal_site_blog/commit/eb09ef4c18fd792952bc9ad9ff8c2602b8039c72
+* https://github.com/twoesplease/personal_site_blog/commit/8b7543c3c1eed3eaed0e22ca5456c6bfb73c182e
+* https://github.com/twoesplease/personal_site_blog/commit/5c253b17ea72f17fc4c8248611f2fc3394f5a776
+* https://github.com/twoesplease/pegacorn_project/commit/f8686b8b7b5b9c89f605a6b9422f5e787cef5559
+
 ### Day 76: September 22nd, 2017 ###
 (9:18 - 10:38pm)
 
