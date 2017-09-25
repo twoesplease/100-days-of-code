@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 78: September 23rd, 2017 ###
+(8 - 10:33pm)
+
+**Progress**:
+* Did more work on basic blog app
+  * Got some weird errors when creating new blog post & did troubleshooting on that for a while
+  
+**Thoughts**:
+Got stuck on my new "easy" project.  I know I'll figure this one out and will have learned something on the other side of it, but it's still frustrating to have been stuck on something that feels like it should be easy.  Something changed in the process of creating and saving a new blog post today, and based on the error I was getting in my browser about the strong params I was using, it seemed like it may be in the form for creating a blog post.  I was getting a weird linter error in there about an unexpected ')' as well even though I wasn't using any '(' or ')', so it seemed like that was likley.  I did several tweaks, figuring that it may be due to a syntax mismatch between the Rails 4 the video I'm following along with is using vs. Rails 5 which is the version of Rails I'm using for this project but I haven't been able to narrow it down yet from referencing the docs and a few Stack Overflow responses.   I also did some peeking in my router, Posts Controller, and Posts Model but couldn't find the issue yet.
+
+Tomorrow to keep troubleshooting I can roll back to a previous commit where this was working and track down what's changed.
+
+**Link to work**: 
+Here are today's commits:
+* https://github.com/twoesplease/personal_site_blog/commit/2668c614b09d13450425f84aaaca4d594553f4f3
+* https://github.com/twoesplease/personal_site_blog/commit/479850348f6e99e72c267ce14bc405a17afb3a04
+
 ### Day 77: September 23rd, 2017 ###
 (9:26 - 10:40pm)
 
