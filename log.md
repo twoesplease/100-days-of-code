@@ -1,6 +1,26 @@
 # 100 Days Of Code - Log
 
-### Day 78: September 23rd, 2017 ###
+### Day 79: September 25th, 2017 ###
+(10:21 - 11:34pm)
+
+**Progress**:
+* Fixed the issues from yesterday in my blog app
+  * Strong params weren't working on the new post form because of an error in my posts controller - I had some code in the 'new' method that was trying to save the form, but that was a job for the 'create' method instead
+  * The linter error I was getting for the posts form seems to be an issue of the linter being outdated.  I saw that in older versions of Rails, it wasn't necessary to put the '=' in the erb tag on the 'form\_for' line.  The linter error went away when I removed the '=' on my form, but also the whole form didn't display.  Once I fixed the controller issue, the form submitted and saved new entries ok without fixing the linter error.
+  * The new post button on my homepage wasn't working, but I found out that it was due to the styling that was applied to it. I'm not quite sure why yet, but for now I have an unstyled (read: ugly) but working new post button.
+  
+  **Thoughts**:
+  I was worried I wasn't going to make much progress on this today, but since I'm coding along with a (video)[[https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2] I was able to reference the code by the original creator and see the issue with my controller.  The other two things I was able to figure out via trial and error.
+  
+Other exciting news for today is that I found out I'll get to attend RubyConf 2017 as an Opportunity Scholar!!  I'm so excited.  Yaaaay :D
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/personal_site_blog/commit/7c6915c156125caa10cf0a72b983c610abd7644d
+* https://github.com/twoesplease/personal_site_blog/commit/4ded8e61403171ae1791e1534c7a9e4a88d66e8d
+
+
+### Day 78: September 24th, 2017 ###
 (8 - 10:33pm)
 
 **Progress**:
