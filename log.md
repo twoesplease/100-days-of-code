@@ -1,5 +1,7 @@
 # 100 Days Of Code - Log
 
+### Add D80 & D81 ###
+
 ### Day 79: September 25th, 2017 ###
 (10:21 - 11:34pm)
 
