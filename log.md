@@ -1,6 +1,59 @@
 # 100 Days Of Code - Log
 
-### Add D80 & D81 ###
+### Day 82: September 28th, 2017 ###
+(9 - 10pm)
+
+**Progress**: 
+* Finished functionality for blog app! 
+  * Implemented user sign-in with Devise and 
+  * Note that I'm following along with a (video by Mackenzie Child)[[https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2]
+* Fiddled a bit with subscribing to a metric in Zendesk's Real-Time chat API with the (faye-websocket)[https://github.com/faye/faye-websocket-ruby] gem but no luck
+
+**Thoughts**:
+Glad to have finished functionality on the blog and that I've been able to lean a thing or two and get some practice in a guided way.  I want to make some updates and change the styling to make it my own, so I watched a couple of minutes of a Bootstrap tutorial.  But then, I decided that I'd rather focus on Ruby & Rails for now since being a front-end developer isn't my goal.  So I switched over to working on the Pegacorn Project for the rest of my hour.
+
+If I do a second round of 100 Days of Code though, I'd like to use the blog on my site just so I could use something that I put the pieces together for myself.
+
+**Link to work**: 
+Here's today's commit: 
+* https://github.com/twoesplease/personal_site_blog/commit/9c88b28b7e7372c8b5297dcc14e7e28b259b0195
+
+### Day 81: September 27th, 2017 ###
+(10:06 - 11:22pm)
+
+**Progress**:
+* Fixed comment functionality 
+* Added about page
+* Added a Bootstrap icon for the home page
+
+**Thoughts**: 
+In my exhaustion last night I put some totally incorrect code in my comment partial.  It caused my server to continually try to load something it couldn't get to (so I just SQL lookup lines being entered repeatedly in my server log) and the page wouldn't load.  I had to close the tab to stop the server log from going on forever (ctrl+c & ctrl+d didn't work) and then go in and kill the server job twice before I went in and fixed the code in the comment partial.  Silly sleep-brain!
+
+I also copied the content off my current ~ * vanity site * ~ home page and stuck it in my about page.  The styling isn't gorgeous but I'm focused on functionality & learning, people!  I don't have aspirations to be a front-end.
+
+I also used a bootstrap icon for the first time so that I could have an easy link back to the home page from the sidebar.
+
+**Link to work**: 
+* https://github.com/twoesplease/personal_site_blog/commit/9a1696d298f11a8da87a3f190be1c6d8030555a6
+* https://github.com/twoesplease/personal_site_blog/commit/fa5279377cd0ed3dbffd336ccfa043b42714fe3e
+* https://github.com/twoesplease/personal_site_blog/commit/b93de0946c684b630f321a54d6bb5116f60fd6ee
+* https://github.com/twoesplease/personal_site_blog/commit/c5fb5696111a4ade7261de42dacbbb87929fc790
+* https://github.com/twoesplease/personal_site_blog/commit/0d2126fb8d7818cb1183210a34d4f9dcc5b353b2
+
+### Day 80: September 26th, 2017 ###
+(10:30 - 11:30pm)
+
+**Progress**: 
+* Added ability to edit and delete blog posts
+* Started on commenting functionality
+
+**Thoughts**:
+Was so exhausted and fighting sleep today.  Not my best work but hopefully some of it sinks in.
+
+**Link to work**: 
+Here are today's commits:
+* https://github.com/twoesplease/personal_site_blog/commit/ee6e7927d49c8c8db58396fdd22ac44ffda3e95c
+* https://github.com/twoesplease/personal_site_blog/commit/f621bc00022fac54707c5f4df0fad6d658df3a47
 
 ### Day 79: September 25th, 2017 ###
 (10:21 - 11:34pm)
