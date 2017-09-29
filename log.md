@@ -6,8 +6,8 @@
 **Progress**: 
 * Finished functionality for blog app! 
   * Implemented user sign-in with Devise and 
-  * Note that I'm following along with a [video by Mackenzie Child]([https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
-* Fiddled a bit with subscribing to a metric in Zendesk's Real-Time chat API with the (faye-websocket)[https://github.com/faye/faye-websocket-ruby] gem but no luck
+  * Note that I'm following along with a [video by Mackenzie Child](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
+* Fiddled a bit with subscribing to a metric in Zendesk's Real-Time chat API with the [faye-websocket](https://github.com/faye/faye-websocket-ruby) gem but no luck
 
 **Thoughts**:
 Glad to have finished functionality on the blog and that I've been able to lean a thing or two and get some practice in a guided way.  I want to make some updates and change the styling to make it my own, so I watched a couple of minutes of a Bootstrap tutorial.  But then, I decided that I'd rather focus on Ruby & Rails for now since being a front-end developer isn't my goal.  So I switched over to working on the Pegacorn Project for the rest of my hour.
@@ -25,7 +25,7 @@ Here's today's commit:
 * Fixed comment functionality 
 * Added about page
 * Added a Bootstrap icon for the home page
-Note that I'm following along with a [video by Mackenzie Child]([https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
+  * Note that I'm following along with a [video by Mackenzie Child](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
 
 **Thoughts**: 
 In my exhaustion last night I put some totally incorrect code in my comment partial.  It caused my server to continually try to load something it couldn't get to (so I just SQL lookup lines being entered repeatedly in my server log) and the page wouldn't load.  I had to close the tab to stop the server log from going on forever (ctrl+c & ctrl+d didn't work) and then go in and kill the server job twice before I went in and fixed the code in the comment partial.  Silly sleep-brain!
@@ -47,7 +47,7 @@ I also used a bootstrap icon for the first time so that I could have an easy lin
 **Progress**: 
 * Added ability to edit and delete blog posts
 * Started on commenting functionality
-Note that I'm following along with a [video by Mackenzie Child]([https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
+  * Note that I'm following along with a [video by Mackenzie Child](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
 
 **Thoughts**:
 Was so exhausted and fighting sleep today.  Not my best work but hopefully some of it sinks in.
@@ -65,6 +65,7 @@ Here are today's commits:
   * Strong params weren't working on the new post form because of an error in my posts controller - I had some code in the 'new' method that was trying to save the form, but that was a job for the 'create' method instead
   * The linter error I was getting for the posts form seems to be an issue of the linter being outdated.  I saw that in older versions of Rails, it wasn't necessary to put the '=' in the erb tag on the 'form\_for' line.  The linter error went away when I removed the '=' on my form, but also the whole form didn't display.  Once I fixed the controller issue, the form submitted and saved new entries ok without fixing the linter error.
   * The new post button on my homepage wasn't working, but I found out that it was due to the styling that was applied to it. I'm not quite sure why yet, but for now I have an unstyled (read: ugly) but working new post button.
+  * Note that I'm following along with a [video by Mackenzie Child](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
   
   **Thoughts**:
   I was worried I wasn't going to make much progress on this today, but since I'm coding along with a [video](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2) I was able to reference the code by the original creator and see the issue with my controller.  The other two things I was able to figure out via trial and error.
@@ -83,6 +84,8 @@ Here are today's commits:
 **Progress**:
 * Did more work on basic blog app
   * Got some weird errors when creating new blog post & did troubleshooting on that for a while
+   * Note that I'm following along with a [video by Mackenzie Child](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
+  
   
 **Thoughts**:
 Got stuck on my new "easy" project.  I know I'll figure this one out and will have learned something on the other side of it, but it's still frustrating to have been stuck on something that feels like it should be easy.  Something changed in the process of creating and saving a new blog post today, and based on the error I was getting in my browser about the strong params I was using, it seemed like it may be in the form for creating a blog post.  I was getting a weird linter error in there about an unexpected ')' as well even though I wasn't using any '(' or ')', so it seemed like that was likley.  I did several tweaks, figuring that it may be due to a syntax mismatch between the Rails 4 the video I'm following along with is using vs. Rails 5 which is the version of Rails I'm using for this project but I haven't been able to narrow it down yet from referencing the docs and a few Stack Overflow responses.   I also did some peeking in my router, Posts Controller, and Posts Model but couldn't find the issue yet.
