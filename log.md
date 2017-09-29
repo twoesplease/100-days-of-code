@@ -6,7 +6,7 @@
 **Progress**: 
 * Finished functionality for blog app! 
   * Implemented user sign-in with Devise and 
-  * Note that I'm following along with a (video by Mackenzie Child)[[https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2]
+  * Note that I'm following along with a [video by Mackenzie Child]([https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
 * Fiddled a bit with subscribing to a metric in Zendesk's Real-Time chat API with the (faye-websocket)[https://github.com/faye/faye-websocket-ruby] gem but no luck
 
 **Thoughts**:
@@ -25,6 +25,7 @@ Here's today's commit:
 * Fixed comment functionality 
 * Added about page
 * Added a Bootstrap icon for the home page
+Note that I'm following along with a [video by Mackenzie Child]([https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
 
 **Thoughts**: 
 In my exhaustion last night I put some totally incorrect code in my comment partial.  It caused my server to continually try to load something it couldn't get to (so I just SQL lookup lines being entered repeatedly in my server log) and the page wouldn't load.  I had to close the tab to stop the server log from going on forever (ctrl+c & ctrl+d didn't work) and then go in and kill the server job twice before I went in and fixed the code in the comment partial.  Silly sleep-brain!
@@ -46,6 +47,7 @@ I also used a bootstrap icon for the first time so that I could have an easy lin
 **Progress**: 
 * Added ability to edit and delete blog posts
 * Started on commenting functionality
+Note that I'm following along with a [video by Mackenzie Child]([https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2)
 
 **Thoughts**:
 Was so exhausted and fighting sleep today.  Not my best work but hopefully some of it sinks in.
@@ -65,7 +67,7 @@ Here are today's commits:
   * The new post button on my homepage wasn't working, but I found out that it was due to the styling that was applied to it. I'm not quite sure why yet, but for now I have an unstyled (read: ugly) but working new post button.
   
   **Thoughts**:
-  I was worried I wasn't going to make much progress on this today, but since I'm coding along with a (video)[[https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2] I was able to reference the code by the original creator and see the issue with my controller.  The other two things I was able to figure out via trial and error.
+  I was worried I wasn't going to make much progress on this today, but since I'm coding along with a [video](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2) I was able to reference the code by the original creator and see the issue with my controller.  The other two things I was able to figure out via trial and error.
   
 Other exciting news for today is that I found out I'll get to attend RubyConf 2017 as an Opportunity Scholar!!  I'm so excited.  Yaaaay :D
 
@@ -97,7 +99,7 @@ Here are today's commits:
 
 **Progress**:
 * Updated cdoe connecting to Zendesk's Real-Time Chat API to stop returning a 500 error
-* Started coding along with (a YouTube video by Mackenzie Child)[https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2] that goes through the process of creating a basic blog app
+* Started coding along with [a YouTube video by Mackenzie Child](https://www.youtube.com/watch?v=BI_VnnOLSKY&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=2) that goes through the process of creating a basic blog app
 
 **Thoughts**: 
 It's hard to tell if the code connecting to the Real-Time Chat API is working properly, because it's supposed to get data for chats and chats aren't turned on right now.  I set it to watch for a 30-minute period and it didn't automatically close after 30 minutes or give me any type of response other than a successful connection message, but I'm not sure if that's the expected behavior.  I can check again on Monday when chats are back on.
