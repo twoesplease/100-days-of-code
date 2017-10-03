@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### If you are here for the log, I will catch up soon!! ###
+
+
+
 ### Day 82: September 28th, 2017 ###
 (9 - 10pm)
 
