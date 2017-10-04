@@ -1,8 +1,30 @@
 # 100 Days Of Code - Log
 
-### If you are here for the log, I will catch up soon!! ###
+### Day 87: October 3rd, 2017 ###
+(10:15 - 11:20pm)
 
+**Progress**:
+* Started working through an [article on Minitest](https://semaphoreci.com/community/tutorials/getting-started-with-minitest) that you can code along with
+  * Read a couple of other articles on the way
+* Fixed an issue that moved over from old machine to new with me regarding Minitest
 
+**Thoughts**:
+Today involved a lot of getting off track!  I started with one article on minitest that I was going to quickly read and then switch over to exercises.  That article reommended I read another introduction to minitest article, which then recommended that I needed to read an article about Behavior-Driven Development first.  I made it through that one and partway through the introduction to minitest.
+
+In the process of testing I also raninto an issue where the dot, F, or S was displaying twice with minitest output and figured out that it was the minitest-reporter gem.  Uninstalling that fixed thigns up!
+
+Finally, I thought I would run a quick brew update && brew upgrade while I was reading but I got an error and went on a goose chase of reading articles and finally updating xcode + opening it + installing additional packages to get that brew updae && brew upgrade to work.
+
+**Link to work**:
+Nothing to link to today.
+
+### Day 86: October 2nd, 2017 ###
+
+### Day 85: October 1st, 2017 ###
+
+### Day 84: September 30th, 2017 ###
+
+### Day 83: Septebmer 29th, 2017 ###
 
 ### Day 82: September 28th, 2017 ###
 (9 - 10pm)
