@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 88: October 4th, 2017 ###
+(8:50 - 9:53pm)
+
+**Progress**:
+* Continued working through the [article on Minitest](https://semaphoreci.com/community/tutorials/getting-started-with-minitest) that I started yesterday
+* Worked a bit on the watch_chat_waits portion of the Pegacorn Project
+
+**Thoughts**:
+I wrote to Zendesk support yesterday to ask for sample code that I could compare to the code I'd written for the real-time chat API and they told me that when I request to subscribe to a metric, I needed to do it using JSON.  When I updated my code to do that and followed their example of putting my subscription arguments in a hash, the code worked!  For the last few minutes of today, I worked on trying to pretty format my output but my first attempt at using the built in PrettyPrint didn't work.  I'll have to work on that tomorrow so that I can tell my light to turn on when the conditions are right!
+
+I need to start practicing TDD/BDD and using the minitest knowledge I'm gaining so I don't forget it.
+
+Side note: I found out who my guide for RubyConf is and wrote my first email to her today! 🎉
+
+**Link to work**:
+Here's today's commit: 
+* https://github.com/twoesplease/pegacorn_project/commit/7fd4e45b3863c74d6863c725fc896450cdbc2ad8
+
 ### Day 87: October 3rd, 2017 ###
 (10:15 - 11:20pm)
 
