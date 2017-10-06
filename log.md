@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 89: October 5th, 2017 ###
+(7:54 - 8:54pm)
+
+**Progress**:
+* Finished the [article on Minitest](https://semaphoreci.com/community/tutorials/getting-started-with-minitest) that I've been working through
+* Worked through [another article from that same site](https://semaphoreci.com/community/tutorials/mocking-in-ruby-with-minitest) on mocking and stubbing in Rails applications
+* Read another [short article on Minitest](https://mattbrictson.com/minitest-and-rails) that I had in an open tab
+
+**Thoughts**:
+I feel a bit guilty for working through tutorials, so tomorrow I'll have to push myself to use this stuff!  That said, I'm excited to have read something about mocking and stubbing because I've been curious about those terms for a while now.  I don't have the differences between them all the way down yet, but I've saved the article I read and now have a framework so that I can build my knowledge up more with other soruces.
+
+**Link to work**:
+Didn't push anything today.
+
 ### Day 88: October 4th, 2017 ###
 (8:50 - 9:53pm)
 
