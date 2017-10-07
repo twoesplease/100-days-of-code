@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 90: October 6th, 2017 ###
+(9:15 - 10:18pm)
+
+**Progress**: 
+* Figured out how to access chat wait time buried inside an array, inside a hash, inside a hash, inside another hash, inside a JSON object for Pegacorn Project
+* Added basic triggers on chat wait time in preparation for lighting the pegacorn based on chat wait time
+* Did a bit of googling on handling errors and retrying a couple of times before giving up
+
+**Thoughts**:
+My code's not beautiful, but I made some good progress on the Pegacorn Project today I think.  I can also clearly see (or so I think) the next steps that I need to take in this file to get things working.  This project has really been a lesson in patience, asking for help, dealing with third-party software, and all kinds of other mini-lessons.  I'm glad that my next step will be error handling, because I feel like that's a skill that I could definitely stand to build.  While Rubocop errors are a bit annoying a lot of the time, it gives me good and helpful suggestions & my code is better overall for using it.
+
+I feel a bit bad that I didn't end up writing any tests today, but I was excited about making some progress on this project in this particular file.  And there are definitely some tests I can write to make my code better.
+
+As a side note, I got asked for help for someone who was trying to work with the Zendesk API today!  I was a little nervous (because social anxiety) and didn't explain things was well as I'd hoped, but the person I helped got what he needed and I got some tips on how I can improve next time.
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/pegacorn_project/commit/d5946a8677b173b6f856ab8b1938275f4a5aaeea
+* https://github.com/twoesplease/pegacorn_project/commit/185cbdafd68da2c3a25c58c01e87081d31e285f0
+
+
 ### Day 89: October 5th, 2017 ###
 (7:54 - 8:54pm)
 
