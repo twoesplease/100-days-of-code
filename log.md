@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 91: October 7th, 2017 ###
+(8:24 - 9:29pm)
+
+**Progress**:
+* Used [this article](http://blog.mirthlab.com/2012/05/25/cleanly-retrying-blocks-of-code-after-an-exception-in-ruby/) to learn how to retry the wait time check a couple of times if it doesn't run successfully the first time.
+
+**Thoughts**: 
+I found that using rescue/retry only worked properly in my script when used in a method definition, but not when used in a code block.  The logic isn't perfect yet, but I feel fairly confident that I know what I need to do in order to get it working - which is a nice feeling!
+
+**Link to work**:
+Here's today's commit:
+* https://github.com/twoesplease/pegacorn_project/commit/d6c1b72a75d73c91a56d9c934e979313c623e3df
+
 ### Day 90: October 6th, 2017 ###
 (9:15 - 10:18pm)
 
@@ -14,6 +27,8 @@ My code's not beautiful, but I made some good progress on the Pegacorn Project t
 I feel a bit bad that I didn't end up writing any tests today, but I was excited about making some progress on this project in this particular file.  And there are definitely some tests I can write to make my code better.
 
 As a side note, I got asked for help for someone who was trying to work with the Zendesk API today!  I was a little nervous (because social anxiety) and didn't explain things was well as I'd hoped, but the person I helped got what he needed and I got some tips on how I can improve next time.
+
+And one more thing, when I tried making an edit in this log just now I totally tried to use vim editing commands #vimlyfe.
 
 **Link to work**:
 Here are today's commits:
