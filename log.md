@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 92: October 8th, 2017 ###
+(2+ hours in the early afternoon)
+
+**Progress**: 
+* Got to a minimum viable product with my 3 Pegacorn Project scripts!
+  * Figured out how to retry the watch_chat_waits script a couple of times if it wasn't successful the first time
+  * Fied a bug in count_good_ratings file caused by a change to the Zendesk API where it wasn't gettisng the count of the good ratings any longer
+  * Moved scripts over to storage on Raspberry Pi and updated file referencing my auth credentials to the right path
+  * Updated Ruby on Raspberry Pi to latest version instead of the much older version it was one
+  * Installed Vim on Rapsberry Pi and set some defaults like theme + turning on line numbers & syntax highlighting
+  
+  **Thoughts**: 
+ I didn't have any experience with retrying code blocks previously so it took me several tries to get logic right and learn some rules about when redo/retry can and cannot be used.I ended up having to write out the flow I wanted on paper to think through how I wanted my code to work, and that was helpful. 
+ 
+I also used Pry for the first time today (instead of byebug/debugger) to help me figure out why the count_good_ratings script wasn't working any longer and it was super helpful!  I know this is a tool that I'll make lots of use of in the future, so I'm glad to be learning a bit about it.  Some other things that I tried when debugging this that I think will come in handy in the future were the `git diff` command and checking out earlier commits to see if the script worked in those (which would let me know if a recent change to the file broke things).
+ 
+My code definitely needs some refactoring, since I think some pieces of the code can be broken out into their own units and I know there are some errorss from Rubocop that I should fix.  That said, I'm glad to have finished these three scripts and to get things set up at work tomorrow to get them working!
+
+**Link to work**:
+Here are today's commits:
+* https://github.com/twoesplease/pegacorn_project/commit/b95503cebddd65f06f8a8d5b22f160163c252b91
+* https://github.com/twoesplease/pegacorn_project/commit/12cb302ba0c7d6aff96540c111a42f8d0226a550
+
 ### Day 91: October 7th, 2017 ###
 (8:24 - 9:29pm)
 
