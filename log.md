@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 93: October 9th, 2017 ###
+(9:25 - 10:25pm)
+
+**Progress**: 
+* Skimmed through a bit of the Odin project to check out the content and compare my own progress to it
+* Worked through parts of Chapter 8 in [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login#sec-logging_in) on logging users in
+
+**Thoughts**: 
+I always feel like I learn a ton every time I work through a bit of the Hartl tutorial.
+
+I took my Raspberry Pi to work today and hoped to get it set up to light up when the scripts triggered, but I couldn't get the right display dongle so I had to order one.
+
+**Link to work**: 
+No commits today!
+
 ### Day 92: October 8th, 2017 ###
 (2+ hours in the early afternoon)
 
