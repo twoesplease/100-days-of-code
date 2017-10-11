@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 94: October 10th, 2017 ###
+(7:40 - 8pm, 9:52 - 10:30pm)
+
+**Progress**:
+* Continued through Chapter 8 in [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login)
+  * Updated header links conditionally based on whether user is logged in
+  * Wrote test to confirm that these updates to the header links update upon login
+  
+**Thoughts**:
+I'm trying to finish this book this week, as I've updated my learning plan and have new tasks written down for next week - otherwise I wouldn't be spending my coding time on tutorials.  Even though this one is a wonderful learning resource, I generally prefer the idea of spending my lunch break on reading and tutorials and evenings on writing original code.  But, everything I read is chock full of good info as usual.
+
+I paused in the middle of my coding time to have a Slack chat for RubyCOnf Opportunity Scholars this evening, which is exciting!!  I got to hear from some organizers and other scholars and got to ask a question.  I really want to push myself out of my major introvert comfort zone at RubyConf since it's such a fantastic opportunity I'm getting.
+
+**Link to work**:
+The book didn't direct me to make a commit yet, but I'm thinking I should start doing that at the end of my coding sessions anyway.
+
 ### Day 93: October 9th, 2017 ###
 (9:25 - 10:25pm)
 
