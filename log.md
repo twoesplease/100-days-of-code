@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 95: October 11th, 2017 ###
+(7 - 9:57pm)
+
+**Progress**:
+* Completed Chapter 9; Advanced Login in [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login) book
+ * Added 'remember me' functionality to sample app's login form
+ * Learned how to generate remember token and corresponding remember digest to store session information in a cookie safely (doesn't store remember token in the user database)
+ * Learned that deleting a session and cookie are the way to log a user out
+ 
+**Thoughts**:
+I set a goal for myself to finish this book this week, but taking 3 hours to finish this one chapter on a Wednesday makes it seem very unlikely, even with me taking more succinct notes.  I don't want to blast through it and not retain anything either, so I may have to adjust that plan or choose another time to finish the book if I want to continue on schedule for the other items I've got on my learning schedule for the next 5 weeks.
+
+As always, there was lots of good info in this chapter (including a sidebar about ternaries which I probably won't use but want to be able to read). Please stick in my brain, info!!
+
+**Link to work**:
+(Note that I worked some outside of my code time this evening too and finished chapter 8, so there's a commit for that too):
+* https://github.com/twoesplease/sample_app_hartl/commit/c26a90cba9fa040daf70720c72a15f038a49dbd0
+* https://github.com/twoesplease/sample_app_hartl/commit/a6ef9ecec80449addc15845413d43db694902d95
+ 
+
 ### Day 94: October 10th, 2017 ###
 (7:40 - 8pm, 9:52 - 10:30pm)
 
