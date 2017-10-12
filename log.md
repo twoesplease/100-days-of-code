@@ -8,6 +8,7 @@
  * Added 'remember me' functionality to sample app's login form
  * Learned how to generate remember token and corresponding remember digest to store session information in a cookie safely (doesn't store remember token in the user database)
  * Learned that deleting a session and cookie are the way to log a user out
+ * Added tests AND a test of a test to make sure this functionality is working properly
  
 **Thoughts**:
 I set a goal for myself to finish this book this week, but taking 3 hours to finish this one chapter on a Wednesday makes it seem very unlikely, even with me taking more succinct notes.  I don't want to blast through it and not retain anything either, so I may have to adjust that plan or choose another time to finish the book if I want to continue on schedule for the other items I've got on my learning schedule for the next 5 weeks.
