@@ -1,5 +1,45 @@
 # 100 Days Of Code - Log
 
+### Day 97: October 14th, 2017 ###
+(9:05 - 10:20pm)
+
+**Progress**:
+* Continued Chapter 10 of [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login) book
+  * Added code so that users can only edit their own profiles
+  * Added friendly forwarding so that when users who aren't logged in try to complete an action, the page they were trying to reach is saved and they're redirected back to it once they're logged in
+  * Added tests for the above functionality
+  
+**Thoughts**:
+It doesn't look like I made much progress today, but a typo hindered my progress for a while and caused my tests to fail, so I was hunting it down for about 25 minutes (facepalm).  I also read back through the code a couple of times and through the description of the steps in the book once more, because I didn't feel confident that I'd completely gotten it the first time around.  
+
+I've started taking less detailed notes so that I can progress a bit faster through the book, so I'm just tyring to summarize things and add details if there's really a detail I feel it's pertinent to remember.  That means I really have to get the concepts for things solidified in my mind so I can write them down which is good, but today my brain felt like it didn't want to wrap all the way around what it was doing quite as fast as I hoped.  I'd still rather understand properly than finish faster.  I think the more code you add the more there is to keep in tyour mind because the code references other code all over the place!  And this is such a small codebase, I'm sure that problem gets exponentially bigger with large codebases.  Some of this will become second nature to me as I use it more though, so it won't feel quite so much like another thing I have to hold in my head.
+
+I know that I usually want to be writing original code instead of following a tutorial on my #100DaysofCode time, but I'm trying to make it through as much of this book this week as I can.
+
+**Link to work**:
+Here's today's commit: 
+* https://github.com/twoesplease/sample_app_hartl/commit/34158f76e8e4c8df5061a44f690009648642982a
+
+### Day 96: October 13th, 2017 ###
+(9:57 -11pm)
+
+**Progress**
+* Worked on Chapter 10 of [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login) book
+  * Added before filter to Users Controller requiring that users be logged in to access edit & update actions
+  * Defined a logged\_in user action so that the before filter would work & that would redirect folks who weren't logged in
+  * Wrote test to test that the before filter worked
+  
+**Thoughts**
+Sad that it doesn't look like I'm going to finish the Hartl book this week like I was hoping, but I'd rather learn well than speed through this.  All of what I'm learning is definitely highly applicable to writing web apps irl.  There are gems for a lot of this logging in and authorization behavior but it's nice to know how to do it myself, and I'm learning a lot of other important concepts on the way.
+
+**Link to work**
+Didn't do a commit today.
+
+### October 12th, 2017 ###
+* Worked some in Hartl on my lunch break but I'm not going to count it because I didn't make it to an hour and I generally don't like to count my lunch break time as part of my hour.
+
+I sat down to do my hour of code tonight but my partner's sister was over and I wasn't able to focus to get it done.
+
 ### Day 95: October 11th, 2017 ###
 (7 - 9:57pm)
 
