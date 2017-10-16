@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 98: October 15th, 2017 ###
+(8:55 - 10:19pm)
+
+**Progress**:
+* Continued Chapter 10 of [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login) book
+  * Added index page to display all users
+  * Installed Faker gem to add some sample users to app
+  * Added pagination to app via will\_paginate & bootstrap-will\_paginate gems
+  * Added test that pagination works
+  
+**Thoughts**:
+Luckily, today felt much less like I was slogging through the content and begging my brain to absorb what I was reading - even though I worked outside all day and was pretty tired.  All the content still felt really applicable to building web apps everyday too.  The one thing that held me up was some indentation that was ever-so-slightly off in my test fixtures yaml file, which seemed to break EVERY one of my tests multiple ways!  Definitely a good thing to know for the future.
+
+I'll probalby move on from the Hartl book for a little while starting tomorrow, even though I'm really eager to finish.  The reason is because I put together an 8-week learning plan to prepare for an Engineering apprenticeship just in case they post it at the beginning of November, and finishing the Hartl book was what I had lined up for last week.  I'll still plan to work on it if I get spare time and do think it'll be really good for me to finish it, I just didn't realize that each remaining chapter would take me 3+ hours to complete.  The last 2 weeks I also left open for review, so I may be able to fit in some more Hartl content then.
+
+Also, I got a cable I need to connect my Raspberry Pi to a monitor at work, so tomorrow I hope to get the Pi on the internet at work to see if I can get the Pegacorn scripts working there.  Fingers crossed!
+
+**Link to work**:
+Here's today's commit:
+* https://github.com/twoesplease/sample_app_hartl/commit/ad04a1e14d03a316db227f11b07e7c66365439dd
+
+
 ### Day 97: October 14th, 2017 ###
 (9:05 - 10:20pm)
 
