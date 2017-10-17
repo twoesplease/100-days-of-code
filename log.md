@@ -9,7 +9,7 @@
   * Added transactions to each individual budget's page
   
 **Thoughts**:
-Didn't make as much progress as I would have hoped today, but I can feel myself getting faster.  I tried to paginate the transactions on the individual budget page will the will\_paginate gem like I learned yesterday in the Hartl Rails tutorial](https://www.railstutorial.org/book/basic\_login), but I think I need more than 30 transactions in order to do that.  I also need to get into better habits of writing tests!
+Didn't make as much progress as I would have hoped today, but I can feel myself getting faster.  I tried to paginate the transactions on the individual budget page will the will\_paginate gem like I learned yesterday in the [Hartl Rails tutorial](https://www.railstutorial.org/book/basic_login), but I think I need more than 30 transactions in order to do that.  I also need to get into better habits of writing tests!
 
 On my lunch break today I also made it through 10 exercises/chapters in [Learn Ruby the Hard Way](https://learnrubythehardway.org/) as I have a goal to read back through that one this week.
 
