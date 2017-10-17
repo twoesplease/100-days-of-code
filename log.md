@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 99: October 16th, 2017 ###
+(7:28 - 8:28pm)
+
+**Progress**:
+* Worked on an original project today, my budget app
+  * Added linked budget names to individual user profile pages
+  * Added transactions to each individual budget's page
+  
+**Thoughts**:
+Didn't make as much progress as I would have hoped today, but I can feel myself getting faster.  I tried to paginate the transactions on the individual budget page will the will\_paginate gem like I learned yesterday in the Hartl Rails tutorial](https://www.railstutorial.org/book/basic\_login), but I think I need more than 30 transactions in order to do that.  I also need to get into better habits of writing tests!
+
+On my lunch break today I also made it through 10 exercises/chapters in [Learn Ruby the Hard Way](https://learnrubythehardway.org/) as I have a goal to read back through that one this week.
+
+**Link to work**:
+Here's today's commit:
+* https://github.com/twoesplease/budget-app/commit/2533966848ba9476add238ff55d52ad44ff8d4e8
+
 ### Day 98: October 15th, 2017 ###
 (8:55 - 10:19pm)
 
