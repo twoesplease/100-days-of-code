@@ -1,16 +1,33 @@
 # 100 Days Of Code, Round 2 - Log
 
-### Day 3: November 24th, 2017 ###
-(8:45pm - xxx)
+### Day 4: November 26th, 2017 ###
+(6:45pm - 8:05pm)
 
 **Progress**:
-* 
+* Figured out local config issue that was holding me up
+* Worked on showing remaining amount left to save in Budget app
   
 **Thoughts**:
+Here's how I figured out the local config issue: Ruby has upgraded to 2.4.2, but my Rails server was looking in a nonexistent folder whose name included ruby 2.4.1 for gem-related info.  When I created a symbolic link from the nonexistent 2.4.1 folder to the 2.4.2 folder that was on my machine, the Rails server started.
 
+I added a couple of fields to my Transactions and Budget tables and attempted to do some math in the models so that I could sum the amount of all the transactions for a budget and then subtract that from the goal total for the budget to get the remaining amount.  I haven't got everything tweaked right just yet, but I learned some Rails commands for doing calculations on database contents, which is pretty cool.
 
 **Link to work**:
+* https://github.com/twoesplease/budget-app/commit/70270e175fe6d238ba7d25768ebbfeaad7b7156f
 
+## Note - Skipped 11/23 because I was at Harry Potter World with my family and we didn't get in until close to midnight.  I needed sleep!
+
+### Day 3: November 24th, 2017 ###
+(8:45pm - 9:47pm)
+
+**Progress**:
+* Fought with local config issues the whole time
+  
+**Thoughts**:
+Local config issues are such a bummer!  It seems like I've run into this one before but I can't remember what I did to fix it.  When I try to start Rails server, I get an error message that Rails can't fin the gems it needs.  Uninstalling and reinstalling the first couple of gems worked, but for the third one it didn't.
+
+**Link to work**:
+No link to speak of :(
 
 ## Note - Skipped 11/23 because I was at Harry Potter World with my family and we didn't get in until close to midnight.  I needed sleep!
 
