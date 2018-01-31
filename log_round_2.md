@@ -1,5 +1,7 @@
 # 100 Days Of Code, Round 2 - Log
 
+## Going forward, I'll be tracking my progress on my [personal blog](http://toneeyoung.com).
+
 ### Day 4: November 26th, 2017 ###
 (6:45pm - 8:05pm)
 
